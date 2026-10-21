@@ -284,7 +284,7 @@ function App() {
   return <div className={`app-shell ${dark ? "theme-dark" : "theme-light"}`}>
     <div className="ambient ambient-one" /><div className="ambient ambient-two" />
     <header className="topbar">
-      <a className="brand" href="#" onClick={e => { e.preventDefault(); setStep(0); }}><span className="brand-mark"><Atom size={19} /></span><span>MUTASCREEN<small>BEATING MALARIA RESISTANCE</small></span></a>
+      <a className="brand" href="#" onClick={e => { e.preventDefault(); setStep(0); }}><span className="brand-mark"><Atom size={21} /></span><span><span className="brand-name">MUTA<span>SCREEN</span></span><small>BEATING MALARIA RESISTANCE</small></span></a>
       <div className="topbar-right"><button className={`mode-badge mode-toggle ${liveMode ? "mode-live" : ""}`} aria-label={liveMode ? "Switch back to demo data" : "Calculate live descriptors for selected molecule"} onClick={() => void toggleMode()}><span /> {liveMode ? "LIVE DESCRIPTORS" : "DEMO MODE"}</button><button className="icon-button help-button" aria-label="Open guided tour" onClick={showTour}><CircleHelp size={18} /></button><button className="icon-button" aria-label={dark ? "Switch to light theme" : "Switch to dark theme"} onClick={() => setDark(!dark)}>{dark ? <Sun size={17} /> : <Moon size={17} />}</button><button className="icon-button mobile-toggle" aria-label="Toggle navigation" onClick={() => setMobileMenu(!mobileMenu)}><Menu size={18} /></button></div>
     </header>
     <nav className={`stepper ${mobileMenu ? "stepper-open" : ""}`} aria-label="Pipeline steps">

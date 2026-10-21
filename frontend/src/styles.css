@@ -29,10 +29,13 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .theme-light { --panel: rgba(255, 255, 255, .83); --panel-strong: #fff; --line: rgba(43, 52, 76, .14); --text: #152034; --muted: #647089; --navy: #f1f4f8; background: radial-gradient(ellipse at 12% -12%, rgba(179, 18, 43, .13), transparent 42%), #f1f4f8; }
 .topbar, .stepper, .main-content, .footer { position: relative; z-index: 1; }
 .topbar { height: 76px; max-width: 1240px; margin: auto; padding: 0 36px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.brand { color: var(--text); text-decoration: none; display: inline-flex; align-items: center; gap: 11px; font: 700 14px "Space Grotesk", sans-serif; letter-spacing: .12em; }
+.brand { color: var(--text); text-decoration: none; display: inline-flex; align-items: center; gap: 11px; font: 700 16px "Space Grotesk", sans-serif; letter-spacing: .12em; }
 .brand > span:last-child { display: grid; gap: 3px; }
+.brand-name { display: inline-block; width: fit-content; font-size: 21px; line-height: 1; letter-spacing: .11em; }
+.brand-name > span { color: var(--teal); }
+.brand-name::after { content: ""; display: block; width: 44%; height: 2px; margin-top: 4px; border-radius: 2px; background: linear-gradient(90deg, var(--teal), rgba(45, 212, 191, 0)); }
 .brand small { color: var(--muted); font: 600 8px "DM Sans", sans-serif; letter-spacing: .12em; }
-.brand-mark { width: 34px; height: 34px; display: grid; place-items: center; color: var(--teal); border-radius: 11px; background: rgba(45, 212, 191, .1); border: 1px solid rgba(45, 212, 191, .24); }
+.brand-mark { width: 38px; height: 38px; display: grid; place-items: center; color: var(--teal); border-radius: 11px; background: rgba(45, 212, 191, .1); border: 1px solid rgba(45, 212, 191, .24); }
 .topbar-right { display: flex; align-items: center; gap: 11px; }
 .mode-badge, .tag { display: inline-flex; align-items: center; gap: 7px; width: fit-content; padding: 7px 10px; color: var(--teal); border: 1px solid rgba(45, 212, 191, .22); border-radius: 999px; background: rgba(45, 212, 191, .07); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
 .mode-toggle { cursor: pointer; }
@@ -318,7 +321,7 @@ tbody td small { display: block; margin-top: 4px; color: var(--muted); font-size
   .footer { margin: 0 22px; }
 }
 @media (max-width: 720px) {
-  .topbar { height: 66px; padding: 0 17px; }.brand { font-size: 12px; }.brand-mark { width: 32px; height: 32px; }.mode-badge { font-size: 8px; }
+  .topbar { height: 66px; padding: 0 17px; }.brand { font-size: 13px; }.brand-name { font-size: 18px; }.brand-mark { width: 34px; height: 34px; }.mode-badge { font-size: 8px; }
   .mobile-toggle { display: inline-grid; }
   .stepper { display: none; position: absolute; top: 65px; left: 0; right: 0; margin: 0; padding: 14px 17px 19px; flex-wrap: wrap; justify-content: flex-start; gap: 9px; background: var(--panel-strong); border-bottom: 1px solid var(--line); box-shadow: 0 20px 30px rgba(0, 0, 0, .2); }
   .stepper-open { display: flex; }.stepper-home, .step-item { width: calc(50% - 6px); padding: 5px; font-size: 10px; }.stepper-line { display: none; }.stepper-progress { position: absolute; left: 17px; right: 17px; bottom: 8px; height: 3px; display: block; border-radius: 10px; background: rgba(144, 162, 188, .16); }.stepper-progress span { display: block; height: 100%; border-radius: inherit; background: var(--teal); transition: width .25s; }
