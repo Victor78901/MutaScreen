@@ -1,0 +1,7502 @@
+[
+  {
+    "id": "KF-0001",
+    "name": "Pyrimethamine",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1",
+    "mw": 235,
+    "source": "Reference control",
+    "reference": true,
+    "scores": {
+      "wild": -8.1,
+      "single": -7.0,
+      "double": -6.1,
+      "triple": -5.5,
+      "quad": -4.3
+    },
+    "resistance_score": 9,
+    "spread": 3.8,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0002",
+    "name": "Cycloguanil",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2)n1",
+    "mw": 222,
+    "source": "Reference control",
+    "reference": true,
+    "scores": {
+      "wild": -8.4,
+      "single": -7.5,
+      "double": -6.7,
+      "triple": -6.0,
+      "quad": -5.2
+    },
+    "resistance_score": 23,
+    "spread": 3.2,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0003",
+    "name": "WR99210",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1",
+    "mw": 343,
+    "source": "Reference control",
+    "reference": true,
+    "scores": {
+      "wild": -9.0,
+      "single": -8.7,
+      "double": -8.2,
+      "triple": -7.8,
+      "quad": -7.3
+    },
+    "resistance_score": 57,
+    "spread": 1.7,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0004",
+    "name": "P218",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1",
+    "mw": 287,
+    "source": "Reference control",
+    "reference": true,
+    "scores": {
+      "wild": -9.2,
+      "single": -9.0,
+      "double": -8.7,
+      "triple": -8.4,
+      "quad": -8.1
+    },
+    "resistance_score": 70,
+    "spread": 1.1,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0005",
+    "name": "Methotrexate",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 406,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.85,
+      "single": -8.85,
+      "double": -6.48,
+      "triple": -5.92,
+      "quad": -6.38
+    },
+    "resistance_score": 34,
+    "spread": 2.93,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0006",
+    "name": "Trimethoprim",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+    "mw": 290,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.57,
+      "single": -7.05,
+      "double": -5.73,
+      "triple": -5.56,
+      "quad": -7.21
+    },
+    "resistance_score": 29,
+    "spread": 3.01,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0007",
+    "name": "Proguanil",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1",
+    "mw": 254,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.58,
+      "single": -7.68,
+      "double": -5.74,
+      "triple": -5.48,
+      "quad": -6.25
+    },
+    "resistance_score": 30,
+    "spread": 2.19,
+    "properties": {
+      "logP": 2.2,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0008",
+    "name": "Chlorcycloguanil",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2)n1",
+    "mw": 256,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.24,
+      "single": -6.61,
+      "double": -8.19,
+      "triple": -7.06,
+      "quad": -4.68
+    },
+    "resistance_score": 15,
+    "spread": 3.51,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0009",
+    "name": "Atovaquone",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccccc23)CC1",
+    "mw": 268,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.84,
+      "single": -7.82,
+      "double": -6.74,
+      "triple": -7.21,
+      "quad": -5.23
+    },
+    "resistance_score": 22,
+    "spread": 3.61,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0010",
+    "name": "Quinidine",
+    "smiles": "COc1ccc2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 268,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.96,
+      "single": -7.39,
+      "double": -6.96,
+      "triple": -8.12,
+      "quad": -5.21
+    },
+    "resistance_score": 22,
+    "spread": 3.75,
+    "properties": {
+      "logP": 3.4,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0011",
+    "name": "Chloroquine",
+    "smiles": "CCN(CC)CCCC(C)Nc1nc(Cl)cc(-c2ccccc2)n1",
+    "mw": 347,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.5,
+      "single": -6.7,
+      "double": -7.97,
+      "triple": -6.71,
+      "quad": -7.39
+    },
+    "resistance_score": 50,
+    "spread": 1.27,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 9,
+      "tpsa": 41
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0012",
+    "name": "Primaquine",
+    "smiles": "COc1ccc2nc(CCCNCC(C)C)cc(N)c2c1",
+    "mw": 287,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.64,
+      "single": -7.34,
+      "double": -6.0,
+      "triple": -7.82,
+      "quad": -7.04
+    },
+    "resistance_score": 39,
+    "spread": 1.81,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 7,
+      "tpsa": 60
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0013",
+    "name": "Amodiaquine",
+    "smiles": "CCN(CC)CCOc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O",
+    "mw": 386,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.23,
+      "single": -6.5,
+      "double": -6.69,
+      "triple": -7.81,
+      "quad": -5.39
+    },
+    "resistance_score": 24,
+    "spread": 3.84,
+    "properties": {
+      "logP": 5.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 8,
+      "tpsa": 58
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0014",
+    "name": "Pyrimethamine analog A",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(F)cc1",
+    "mw": 218,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.33,
+      "single": -7.91,
+      "double": -6.31,
+      "triple": -6.15,
+      "quad": -6.25
+    },
+    "resistance_score": 40,
+    "spread": 2.18,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0015",
+    "name": "Pyrimethamine analog B",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Br)cc1",
+    "mw": 279,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.7,
+      "single": -7.95,
+      "double": -7.41,
+      "triple": -7.68,
+      "quad": -7.31
+    },
+    "resistance_score": 58,
+    "spread": 1.38,
+    "properties": {
+      "logP": 2.4,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0016",
+    "name": "Pyrimethamine analog C",
+    "smiles": "Cc1ccc(-c2c(C)nc(N)nc2N)cc1",
+    "mw": 214,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.06,
+      "single": -6.38,
+      "double": -6.87,
+      "triple": -7.07,
+      "quad": -7.8
+    },
+    "resistance_score": 44,
+    "spread": 1.68,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0017",
+    "name": "Pyrimethamine analog D",
+    "smiles": "COc1ccc(-c2c(C)nc(N)nc2N)cc1",
+    "mw": 230,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.19,
+      "single": -8.14,
+      "double": -7.67,
+      "triple": -6.19,
+      "quad": -4.9
+    },
+    "resistance_score": 19,
+    "spread": 3.24,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 87
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0018",
+    "name": "Pyrimethamine analog E",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(CF)cc1",
+    "mw": 232,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.13,
+      "single": -8.81,
+      "double": -7.89,
+      "triple": -5.41,
+      "quad": -6.15
+    },
+    "resistance_score": 25,
+    "spread": 3.72,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0019",
+    "name": "Diaminopyrimidine 1",
+    "smiles": "Nc1ncc(-c2ccc(F)cc2)c(N)n1",
+    "mw": 204,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.15,
+      "single": -7.24,
+      "double": -7.1,
+      "triple": -7.9,
+      "quad": -7.67
+    },
+    "resistance_score": 53,
+    "spread": 2.06,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0020",
+    "name": "Diaminopyrimidine 2",
+    "smiles": "Nc1ncc(-c2ccc(Cl)cc2)c(N)n1",
+    "mw": 221,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.51,
+      "single": -6.39,
+      "double": -7.3,
+      "triple": -5.42,
+      "quad": -6.62
+    },
+    "resistance_score": 27,
+    "spread": 3.08,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0021",
+    "name": "Diaminopyrimidine 3",
+    "smiles": "Cc1ccc(-c2cnc(N)nc2N)cc1",
+    "mw": 200,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.62,
+      "single": -8.73,
+      "double": -6.8,
+      "triple": -7.75,
+      "quad": -4.67
+    },
+    "resistance_score": 13,
+    "spread": 4.06,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0022",
+    "name": "Diaminopyrimidine 4",
+    "smiles": "COc1ccc(-c2cnc(N)nc2N)cc1",
+    "mw": 216,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.9,
+      "single": -8.94,
+      "double": -6.76,
+      "triple": -6.88,
+      "quad": -5.66
+    },
+    "resistance_score": 29,
+    "spread": 3.28,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 87
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0023",
+    "name": "Diaminopyrimidine 5",
+    "smiles": "Nc1ncc(-c2ccncc2)c(N)n1",
+    "mw": 187,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.95,
+      "single": -8.7,
+      "double": -7.16,
+      "triple": -6.42,
+      "quad": -7.61
+    },
+    "resistance_score": 43,
+    "spread": 2.27,
+    "properties": {
+      "logP": 0.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0024",
+    "name": "Triazine analog 1",
+    "smiles": "Nc1nc(N)nc(-c2ccccc2)n1",
+    "mw": 187,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.3,
+      "single": -7.08,
+      "double": -7.96,
+      "triple": -7.99,
+      "quad": -6.53
+    },
+    "resistance_score": 47,
+    "spread": 1.46,
+    "properties": {
+      "logP": 0.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0025",
+    "name": "Triazine analog 2",
+    "smiles": "Nc1nc(N)nc(-c2ccc(F)cc2)n1",
+    "mw": 205,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.89,
+      "single": -7.3,
+      "double": -8.17,
+      "triple": -6.53,
+      "quad": -6.03
+    },
+    "resistance_score": 38,
+    "spread": 2.14,
+    "properties": {
+      "logP": 0.8,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0026",
+    "name": "Triazine analog 4",
+    "smiles": "Nc1nc(N)nc(-c2ccncc2)n1",
+    "mw": 188,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.99,
+      "single": -7.64,
+      "double": -6.74,
+      "triple": -6.16,
+      "quad": -7.52
+    },
+    "resistance_score": 38,
+    "spread": 2.83,
+    "properties": {
+      "logP": 0.1,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0027",
+    "name": "Triazine analog 5",
+    "smiles": "COc1ccc(-c2nc(N)nc(N)n2)cc1",
+    "mw": 217,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.22,
+      "single": -7.09,
+      "double": -5.74,
+      "triple": -6.63,
+      "quad": -4.87
+    },
+    "resistance_score": 15,
+    "spread": 4.35,
+    "properties": {
+      "logP": 0.7,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0028",
+    "name": "Pteridine analog 1",
+    "smiles": "Nc1ncc2ncnc(N)c2n1",
+    "mw": 162,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.49,
+      "single": -8.57,
+      "double": -6.64,
+      "triple": -7.42,
+      "quad": -4.98
+    },
+    "resistance_score": 19,
+    "spread": 3.59,
+    "properties": {
+      "logP": -0.4,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 0,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0029",
+    "name": "Pteridine analog 2",
+    "smiles": "Nc1nc(N)c2nc[nH]c2n1",
+    "mw": 150,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.61,
+      "single": -8.86,
+      "double": -7.63,
+      "triple": -5.98,
+      "quad": -7.71
+    },
+    "resistance_score": 35,
+    "spread": 2.88,
+    "properties": {
+      "logP": -0.5,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 0,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0030",
+    "name": "Aminopyrimidine 1",
+    "smiles": "Nc1ncc(C2CC2)c(N)n1",
+    "mw": 150,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.86,
+      "single": -8.9,
+      "double": -6.56,
+      "triple": -5.5,
+      "quad": -5.49
+    },
+    "resistance_score": 27,
+    "spread": 3.41,
+    "properties": {
+      "logP": 0.5,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0031",
+    "name": "Aminopyrimidine 2",
+    "smiles": "Nc1ncc(C2CCC2)c(N)n1",
+    "mw": 164,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.26,
+      "single": -8.47,
+      "double": -6.24,
+      "triple": -5.42,
+      "quad": -5.11
+    },
+    "resistance_score": 21,
+    "spread": 3.36,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0032",
+    "name": "Pyrimethamine analog",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1F",
+    "mw": 253,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.87,
+      "single": -8.2,
+      "double": -5.87,
+      "triple": -6.26,
+      "quad": -6.51
+    },
+    "resistance_score": 33,
+    "spread": 3.0,
+    "properties": {
+      "logP": 2.4,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0033",
+    "name": "Pyrimethamine analog 001",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1Cl",
+    "mw": 269,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.77,
+      "single": -8.89,
+      "double": -6.33,
+      "triple": -6.53,
+      "quad": -7.42
+    },
+    "resistance_score": 41,
+    "spread": 2.57,
+    "properties": {
+      "logP": 2.9,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0034",
+    "name": "Pyrimethamine analog 002",
+    "smiles": "Cc1cc(Cl)ccc1-c1c(C)nc(N)nc1N",
+    "mw": 249,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.09,
+      "single": -6.33,
+      "double": -5.94,
+      "triple": -8.18,
+      "quad": -7.33
+    },
+    "resistance_score": 34,
+    "spread": 3.15,
+    "properties": {
+      "logP": 2.6,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0035",
+    "name": "Pyrimethamine analog 003",
+    "smiles": "COc1cc(Cl)ccc1-c1c(C)nc(N)nc1N",
+    "mw": 265,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.29,
+      "single": -7.79,
+      "double": -6.1,
+      "triple": -6.84,
+      "quad": -6.61
+    },
+    "resistance_score": 40,
+    "spread": 1.69,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 87
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0036",
+    "name": "Pyrimethamine analog 004",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1C(N)=O",
+    "mw": 278,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.1,
+      "single": -8.16,
+      "double": -5.87,
+      "triple": -6.03,
+      "quad": -7.46
+    },
+    "resistance_score": 35,
+    "spread": 2.29,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 121
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0037",
+    "name": "Pyrimethamine analog 005",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1C#N",
+    "mw": 260,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.17,
+      "single": -6.43,
+      "double": -8.16,
+      "triple": -6.7,
+      "quad": -6.23
+    },
+    "resistance_score": 41,
+    "spread": 1.93,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 102
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0038",
+    "name": "Pyrimethamine analog 006",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1N",
+    "mw": 250,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.79,
+      "single": -7.01,
+      "double": -5.91,
+      "triple": -5.74,
+      "quad": -5.15
+    },
+    "resistance_score": 21,
+    "spread": 3.65,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0039",
+    "name": "Pyrimethamine analog 007",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1O",
+    "mw": 251,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.41,
+      "single": -7.25,
+      "double": -6.1,
+      "triple": -7.29,
+      "quad": -5.33
+    },
+    "resistance_score": 25,
+    "spread": 3.07,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 98
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0040",
+    "name": "Pyrimethamine analog 008",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)cc1C(F)(F)F",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.36,
+      "single": -6.56,
+      "double": -7.51,
+      "triple": -6.67,
+      "quad": -6.37
+    },
+    "resistance_score": 43,
+    "spread": 1.99,
+    "properties": {
+      "logP": 3.3,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0041",
+    "name": "Pyrimethamine analog 009",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(F)c1",
+    "mw": 253,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.05,
+      "single": -7.68,
+      "double": -6.44,
+      "triple": -6.45,
+      "quad": -4.71
+    },
+    "resistance_score": 13,
+    "spread": 4.34,
+    "properties": {
+      "logP": 2.4,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0042",
+    "name": "Pyrimethamine analog 010",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(Cl)c1",
+    "mw": 269,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.5,
+      "single": -8.67,
+      "double": -7.1,
+      "triple": -6.95,
+      "quad": -7.84
+    },
+    "resistance_score": 52,
+    "spread": 1.72,
+    "properties": {
+      "logP": 2.9,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0043",
+    "name": "Pyrimethamine analog 011",
+    "smiles": "Cc1cc(-c2c(C)nc(N)nc2N)ccc1Cl",
+    "mw": 249,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.13,
+      "single": -7.27,
+      "double": -7.61,
+      "triple": -6.45,
+      "quad": -5.65
+    },
+    "resistance_score": 33,
+    "spread": 1.95,
+    "properties": {
+      "logP": 2.6,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0044",
+    "name": "Pyrimethamine analog 012",
+    "smiles": "COc1cc(-c2c(C)nc(N)nc2N)ccc1Cl",
+    "mw": 265,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.55,
+      "single": -6.6,
+      "double": -6.9,
+      "triple": -6.75,
+      "quad": -5.96
+    },
+    "resistance_score": 39,
+    "spread": 1.59,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 87
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0045",
+    "name": "Pyrimethamine analog 013",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(C(N)=O)c1",
+    "mw": 278,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.86,
+      "single": -8.92,
+      "double": -6.43,
+      "triple": -6.18,
+      "quad": -7.61
+    },
+    "resistance_score": 38,
+    "spread": 2.74,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 2,
+      "tpsa": 121
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0046",
+    "name": "Pyrimethamine analog 014",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(C#N)c1",
+    "mw": 260,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.55,
+      "single": -8.37,
+      "double": -8.18,
+      "triple": -6.25,
+      "quad": -6.54
+    },
+    "resistance_score": 41,
+    "spread": 2.3,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 102
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0047",
+    "name": "Pyrimethamine analog 015",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(N)c1",
+    "mw": 250,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.64,
+      "single": -7.01,
+      "double": -6.25,
+      "triple": -7.42,
+      "quad": -5.98
+    },
+    "resistance_score": 36,
+    "spread": 2.66,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0048",
+    "name": "Pyrimethamine analog 016",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(O)c1",
+    "mw": 251,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.77,
+      "single": -8.3,
+      "double": -7.76,
+      "triple": -7.37,
+      "quad": -7.27
+    },
+    "resistance_score": 57,
+    "spread": 1.49,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 98
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0049",
+    "name": "Pyrimethamine analog 017",
+    "smiles": "Cc1nc(N)nc(N)c1-c1ccc(Cl)c(C(F)(F)F)c1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.33,
+      "single": -6.57,
+      "double": -7.11,
+      "triple": -7.42,
+      "quad": -6.2
+    },
+    "resistance_score": 37,
+    "spread": 3.13,
+    "properties": {
+      "logP": 3.3,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "tpsa": 78
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0050",
+    "name": "Cycloguanil analog 018",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(F)c2)n1",
+    "mw": 240,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.17,
+      "single": -8.73,
+      "double": -6.09,
+      "triple": -7.35,
+      "quad": -7.83
+    },
+    "resistance_score": 37,
+    "spread": 2.64,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0051",
+    "name": "Cycloguanil analog 019",
+    "smiles": "Cc1cc(-c2nc(N)nc(N)n2)ccc1Cl",
+    "mw": 236,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.06,
+      "single": -8.26,
+      "double": -5.9,
+      "triple": -7.96,
+      "quad": -7.45
+    },
+    "resistance_score": 36,
+    "spread": 2.36,
+    "properties": {
+      "logP": 1.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0052",
+    "name": "Cycloguanil analog 020",
+    "smiles": "COc1cc(-c2nc(N)nc(N)n2)ccc1Cl",
+    "mw": 252,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.77,
+      "single": -8.56,
+      "double": -6.31,
+      "triple": -7.01,
+      "quad": -4.65
+    },
+    "resistance_score": 13,
+    "spread": 3.91,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0053",
+    "name": "Cycloguanil analog 021",
+    "smiles": "NC(=O)c1cc(-c2nc(N)nc(N)n2)ccc1Cl",
+    "mw": 265,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.38,
+      "single": -7.22,
+      "double": -7.61,
+      "triple": -7.22,
+      "quad": -6.06
+    },
+    "resistance_score": 38,
+    "spread": 2.33,
+    "properties": {
+      "logP": 0.5,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 134
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0054",
+    "name": "Cycloguanil analog 022",
+    "smiles": "N#Cc1cc(-c2nc(N)nc(N)n2)ccc1Cl",
+    "mw": 247,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.7,
+      "single": -7.43,
+      "double": -7.58,
+      "triple": -6.69,
+      "quad": -7.38
+    },
+    "resistance_score": 48,
+    "spread": 2.01,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 114
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0055",
+    "name": "Cycloguanil analog 023",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(N)c2)n1",
+    "mw": 237,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.64,
+      "single": -8.09,
+      "double": -7.16,
+      "triple": -5.42,
+      "quad": -4.57
+    },
+    "resistance_score": 12,
+    "spread": 4.07,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 117
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0056",
+    "name": "Cycloguanil analog 024",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(O)c2)n1",
+    "mw": 238,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.28,
+      "single": -7.18,
+      "double": -6.24,
+      "triple": -5.8,
+      "quad": -5.81
+    },
+    "resistance_score": 34,
+    "spread": 2.48,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0057",
+    "name": "Cycloguanil analog 025",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(C(F)(F)F)c2)n1",
+    "mw": 290,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.98,
+      "single": -7.24,
+      "double": -7.39,
+      "triple": -7.81,
+      "quad": -7.37
+    },
+    "resistance_score": 56,
+    "spread": 1.74,
+    "properties": {
+      "logP": 2.4,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0058",
+    "name": "Cycloguanil analog 026",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2F)n1",
+    "mw": 240,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.65,
+      "single": -8.33,
+      "double": -7.7,
+      "triple": -7.07,
+      "quad": -6.83
+    },
+    "resistance_score": 51,
+    "spread": 1.49,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0059",
+    "name": "Cycloguanil analog 027",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2Cl)n1",
+    "mw": 256,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.13,
+      "single": -8.39,
+      "double": -8.01,
+      "triple": -6.31,
+      "quad": -7.64
+    },
+    "resistance_score": 42,
+    "spread": 2.09,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0060",
+    "name": "Cycloguanil analog 028",
+    "smiles": "Cc1cc(Cl)ccc1-c1nc(N)nc(N)n1",
+    "mw": 236,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.31,
+      "single": -6.42,
+      "double": -8.17,
+      "triple": -6.49,
+      "quad": -5.02
+    },
+    "resistance_score": 21,
+    "spread": 3.15,
+    "properties": {
+      "logP": 1.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0061",
+    "name": "Cycloguanil analog 029",
+    "smiles": "COc1cc(Cl)ccc1-c1nc(N)nc(N)n1",
+    "mw": 252,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.91,
+      "single": -6.41,
+      "double": -7.5,
+      "triple": -8.05,
+      "quad": -7.73
+    },
+    "resistance_score": 42,
+    "spread": 2.5,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0062",
+    "name": "Cycloguanil analog 030",
+    "smiles": "NC(=O)c1cc(Cl)ccc1-c1nc(N)nc(N)n1",
+    "mw": 265,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.69,
+      "single": -8.22,
+      "double": -6.66,
+      "triple": -6.62,
+      "quad": -5.16
+    },
+    "resistance_score": 22,
+    "spread": 3.53,
+    "properties": {
+      "logP": 0.5,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 134
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0063",
+    "name": "Cycloguanil analog 031",
+    "smiles": "N#Cc1cc(Cl)ccc1-c1nc(N)nc(N)n1",
+    "mw": 247,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.95,
+      "single": -8.08,
+      "double": -8.32,
+      "triple": -5.8,
+      "quad": -6.84
+    },
+    "resistance_score": 34,
+    "spread": 2.51,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 114
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0064",
+    "name": "Cycloguanil analog 032",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2N)n1",
+    "mw": 237,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.27,
+      "single": -8.83,
+      "double": -7.82,
+      "triple": -5.68,
+      "quad": -5.27
+    },
+    "resistance_score": 23,
+    "spread": 3.56,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 117
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0065",
+    "name": "Cycloguanil analog 033",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2O)n1",
+    "mw": 238,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.18,
+      "single": -7.09,
+      "double": -6.19,
+      "triple": -6.22,
+      "quad": -5.41
+    },
+    "resistance_score": 24,
+    "spread": 3.77,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0066",
+    "name": "Cycloguanil analog 034",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)cc2C(F)(F)F)n1",
+    "mw": 290,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.81,
+      "single": -7.78,
+      "double": -6.25,
+      "triple": -6.36,
+      "quad": -7.81
+    },
+    "resistance_score": 40,
+    "spread": 2.55,
+    "properties": {
+      "logP": 2.4,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0067",
+    "name": "WR99210 analog 035",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1F",
+    "mw": 361,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.94,
+      "single": -8.17,
+      "double": -8.09,
+      "triple": -7.3,
+      "quad": -7.41
+    },
+    "resistance_score": 57,
+    "spread": 1.64,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0068",
+    "name": "WR99210 analog 036",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1Cl",
+    "mw": 378,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.24,
+      "single": -8.26,
+      "double": -5.76,
+      "triple": -5.9,
+      "quad": -6.85
+    },
+    "resistance_score": 33,
+    "spread": 2.5,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0069",
+    "name": "WR99210 analog 037",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1C",
+    "mw": 357,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.91,
+      "single": -6.61,
+      "double": -7.47,
+      "triple": -6.25,
+      "quad": -5.41
+    },
+    "resistance_score": 25,
+    "spread": 3.5,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0070",
+    "name": "WR99210 analog 038",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1OC",
+    "mw": 373,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.16,
+      "single": -7.12,
+      "double": -6.71,
+      "triple": -6.6,
+      "quad": -7.32
+    },
+    "resistance_score": 48,
+    "spread": 1.56,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 131
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0071",
+    "name": "WR99210 analog 039",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1C(N)=O",
+    "mw": 386,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.41,
+      "single": -7.03,
+      "double": -8.27,
+      "triple": -6.99,
+      "quad": -7.17
+    },
+    "resistance_score": 54,
+    "spread": 1.28,
+    "properties": {
+      "logP": 0.6,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 165
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0072",
+    "name": "WR99210 analog 040",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1C#N",
+    "mw": 368,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.18,
+      "single": -8.12,
+      "double": -7.76,
+      "triple": -7.74,
+      "quad": -5.35
+    },
+    "resistance_score": 26,
+    "spread": 2.83,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 146
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0073",
+    "name": "WR99210 analog 041",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1N",
+    "mw": 358,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.45,
+      "single": -8.91,
+      "double": -6.92,
+      "triple": -5.45,
+      "quad": -6.5
+    },
+    "resistance_score": 26,
+    "spread": 3.47,
+    "properties": {
+      "logP": 1.0,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 148
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0074",
+    "name": "WR99210 analog 042",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1O",
+    "mw": 359,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.16,
+      "single": -7.27,
+      "double": -6.44,
+      "triple": -7.56,
+      "quad": -7.56
+    },
+    "resistance_score": 47,
+    "spread": 1.12,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 142
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0075",
+    "name": "WR99210 analog 043",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)cc1C(F)(F)F",
+    "mw": 411,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.76,
+      "single": -8.38,
+      "double": -6.77,
+      "triple": -8.19,
+      "quad": -4.77
+    },
+    "resistance_score": 16,
+    "spread": 3.61,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0076",
+    "name": "WR99210 analog 044",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(F)c1",
+    "mw": 361,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.4,
+      "single": -6.46,
+      "double": -6.19,
+      "triple": -5.78,
+      "quad": -4.7
+    },
+    "resistance_score": 15,
+    "spread": 3.71,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0077",
+    "name": "WR99210 analog 045",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(Cl)c1",
+    "mw": 378,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.24,
+      "single": -7.03,
+      "double": -7.9,
+      "triple": -5.51,
+      "quad": -4.84
+    },
+    "resistance_score": 15,
+    "spread": 4.4,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0078",
+    "name": "WR99210 analog 046",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(C)c1",
+    "mw": 357,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.32,
+      "single": -7.34,
+      "double": -7.81,
+      "triple": -7.4,
+      "quad": -6.71
+    },
+    "resistance_score": 49,
+    "spread": 1.61,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0079",
+    "name": "WR99210 analog 047",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(OC)c1",
+    "mw": 373,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.65,
+      "single": -7.13,
+      "double": -5.86,
+      "triple": -6.25,
+      "quad": -7.88
+    },
+    "resistance_score": 34,
+    "spread": 2.8,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 131
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0080",
+    "name": "WR99210 analog 048",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(C(N)=O)c1",
+    "mw": 386,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.6,
+      "single": -7.96,
+      "double": -7.62,
+      "triple": -7.62,
+      "quad": -7.26
+    },
+    "resistance_score": 60,
+    "spread": 0.7,
+    "properties": {
+      "logP": 0.6,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 165
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0081",
+    "name": "WR99210 analog 049",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(C#N)c1",
+    "mw": 368,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.11,
+      "single": -7.71,
+      "double": -6.3,
+      "triple": -8.14,
+      "quad": -5.11
+    },
+    "resistance_score": 23,
+    "spread": 3.02,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 146
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0082",
+    "name": "WR99210 analog 050",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(N)c1",
+    "mw": 358,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.79,
+      "single": -6.58,
+      "double": -6.67,
+      "triple": -5.84,
+      "quad": -6.83
+    },
+    "resistance_score": 36,
+    "spread": 1.94,
+    "properties": {
+      "logP": 1.0,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 148
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0083",
+    "name": "WR99210 analog 051",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(O)c1",
+    "mw": 359,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.44,
+      "single": -6.32,
+      "double": -7.6,
+      "triple": -6.91,
+      "quad": -5.34
+    },
+    "resistance_score": 28,
+    "spread": 2.27,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 142
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0084",
+    "name": "WR99210 analog 052",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2cnc(N)c(N)n2)c(C(F)(F)F)c1",
+    "mw": 411,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.17,
+      "single": -6.94,
+      "double": -8.13,
+      "triple": -8.14,
+      "quad": -6.37
+    },
+    "resistance_score": 44,
+    "spread": 1.77,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0085",
+    "name": "WR99210 analog 053",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2F)cc1",
+    "mw": 361,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.37,
+      "single": -6.98,
+      "double": -7.03,
+      "triple": -6.61,
+      "quad": -6.82
+    },
+    "resistance_score": 47,
+    "spread": 1.76,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0086",
+    "name": "WR99210 analog 054",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2Cl)cc1",
+    "mw": 378,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.22,
+      "single": -8.02,
+      "double": -7.12,
+      "triple": -6.63,
+      "quad": -5.24
+    },
+    "resistance_score": 21,
+    "spread": 3.98,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0087",
+    "name": "WR99210 analog 055",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2C)cc1",
+    "mw": 357,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.93,
+      "single": -6.92,
+      "double": -7.29,
+      "triple": -6.46,
+      "quad": -6.77
+    },
+    "resistance_score": 46,
+    "spread": 1.46,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0088",
+    "name": "WR99210 analog 056",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2OC)cc1",
+    "mw": 373,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.77,
+      "single": -6.87,
+      "double": -7.86,
+      "triple": -6.65,
+      "quad": -6.48
+    },
+    "resistance_score": 47,
+    "spread": 1.38,
+    "properties": {
+      "logP": 1.5,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 131
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0089",
+    "name": "WR99210 analog 057",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2C(N)=O)cc1",
+    "mw": 386,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.75,
+      "single": -8.46,
+      "double": -6.81,
+      "triple": -7.71,
+      "quad": -4.87
+    },
+    "resistance_score": 17,
+    "spread": 3.59,
+    "properties": {
+      "logP": 0.6,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 9,
+      "tpsa": 165
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0090",
+    "name": "WR99210 analog 058",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2C#N)cc1",
+    "mw": 368,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.05,
+      "single": -7.97,
+      "double": -6.88,
+      "triple": -6.11,
+      "quad": -4.83
+    },
+    "resistance_score": 15,
+    "spread": 4.22,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 146
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0091",
+    "name": "WR99210 analog 059",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2N)cc1",
+    "mw": 358,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.21,
+      "single": -8.62,
+      "double": -7.03,
+      "triple": -5.89,
+      "quad": -4.52
+    },
+    "resistance_score": 9,
+    "spread": 4.69,
+    "properties": {
+      "logP": 1.0,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 148
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0092",
+    "name": "WR99210 analog 060",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2O)cc1",
+    "mw": 359,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.18,
+      "single": -7.56,
+      "double": -5.85,
+      "triple": -6.19,
+      "quad": -4.94
+    },
+    "resistance_score": 21,
+    "spread": 2.62,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 8,
+      "tpsa": 142
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0093",
+    "name": "WR99210 analog 061",
+    "smiles": "CCN(CC)CCNC(=O)c1ccc(Nc2nc(N)c(N)nc2C(F)(F)F)cc1",
+    "mw": 411,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.57,
+      "single": -6.73,
+      "double": -7.09,
+      "triple": -6.66,
+      "quad": -7.12
+    },
+    "resistance_score": 51,
+    "spread": 0.91,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 8,
+      "tpsa": 122
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0094",
+    "name": "P218 analog 062",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1F",
+    "mw": 305,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.01,
+      "single": -6.33,
+      "double": -8.49,
+      "triple": -5.98,
+      "quad": -4.68
+    },
+    "resistance_score": 14,
+    "spread": 3.81,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0095",
+    "name": "P218 analog 063",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1Cl",
+    "mw": 322,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.6,
+      "single": -6.48,
+      "double": -5.99,
+      "triple": -6.34,
+      "quad": -7.88
+    },
+    "resistance_score": 38,
+    "spread": 1.89,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0096",
+    "name": "P218 analog 064",
+    "smiles": "Cc1cc(Nc2nc(N)nc(N)n2)ccc1C(=O)NC(C)C",
+    "mw": 301,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.39,
+      "single": -8.81,
+      "double": -6.87,
+      "triple": -8.1,
+      "quad": -4.64
+    },
+    "resistance_score": 12,
+    "spread": 4.17,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0097",
+    "name": "P218 analog 065",
+    "smiles": "COc1cc(Nc2nc(N)nc(N)n2)ccc1C(=O)NC(C)C",
+    "mw": 317,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.37,
+      "single": -6.64,
+      "double": -6.13,
+      "triple": -7.6,
+      "quad": -5.35
+    },
+    "resistance_score": 26,
+    "spread": 3.02,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 141
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0098",
+    "name": "P218 analog 066",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1C(N)=O",
+    "mw": 330,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.11,
+      "single": -7.03,
+      "double": -6.99,
+      "triple": -8.13,
+      "quad": -7.04
+    },
+    "resistance_score": 54,
+    "spread": 1.14,
+    "properties": {
+      "logP": 0.0,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 175
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0099",
+    "name": "P218 analog 067",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1C#N",
+    "mw": 312,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.4,
+      "single": -7.1,
+      "double": -7.48,
+      "triple": -8.01,
+      "quad": -6.03
+    },
+    "resistance_score": 39,
+    "spread": 1.98,
+    "properties": {
+      "logP": 0.8,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 156
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0100",
+    "name": "P218 analog 068",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1N",
+    "mw": 302,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.52,
+      "single": -8.11,
+      "double": -8.03,
+      "triple": -5.68,
+      "quad": -7.29
+    },
+    "resistance_score": 31,
+    "spread": 2.85,
+    "properties": {
+      "logP": 0.5,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 158
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0101",
+    "name": "P218 analog 069",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1O",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.68,
+      "single": -6.79,
+      "double": -6.31,
+      "triple": -6.47,
+      "quad": -6.16
+    },
+    "resistance_score": 39,
+    "spread": 2.51,
+    "properties": {
+      "logP": 0.6,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 152
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0102",
+    "name": "P218 analog 070",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)cc1C(F)(F)F",
+    "mw": 355,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.72,
+      "single": -6.8,
+      "double": -8.47,
+      "triple": -5.96,
+      "quad": -4.85
+    },
+    "resistance_score": 17,
+    "spread": 3.62,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0103",
+    "name": "P218 analog 071",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(F)c1",
+    "mw": 305,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.51,
+      "single": -6.87,
+      "double": -6.72,
+      "triple": -5.46,
+      "quad": -4.68
+    },
+    "resistance_score": 14,
+    "spread": 3.82,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0104",
+    "name": "P218 analog 072",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(Cl)c1",
+    "mw": 322,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.46,
+      "single": -7.39,
+      "double": -7.15,
+      "triple": -5.92,
+      "quad": -5.71
+    },
+    "resistance_score": 35,
+    "spread": 1.75,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0105",
+    "name": "P218 analog 073",
+    "smiles": "Cc1cc(C(=O)NC(C)C)ccc1Nc1nc(N)nc(N)n1",
+    "mw": 301,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.35,
+      "single": -8.23,
+      "double": -5.97,
+      "triple": -8.04,
+      "quad": -5.43
+    },
+    "resistance_score": 28,
+    "spread": 2.8,
+    "properties": {
+      "logP": 1.2,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0106",
+    "name": "P218 analog 074",
+    "smiles": "COc1cc(C(=O)NC(C)C)ccc1Nc1nc(N)nc(N)n1",
+    "mw": 317,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.97,
+      "single": -7.49,
+      "double": -6.43,
+      "triple": -7.47,
+      "quad": -7.77
+    },
+    "resistance_score": 42,
+    "spread": 2.54,
+    "properties": {
+      "logP": 0.9,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 141
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0107",
+    "name": "P218 analog 075",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(C(N)=O)c1",
+    "mw": 330,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.68,
+      "single": -8.34,
+      "double": -8.3,
+      "triple": -8.07,
+      "quad": -5.89
+    },
+    "resistance_score": 35,
+    "spread": 2.45,
+    "properties": {
+      "logP": 0.0,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 175
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0108",
+    "name": "P218 analog 076",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(C#N)c1",
+    "mw": 312,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.94,
+      "single": -6.34,
+      "double": -7.43,
+      "triple": -5.79,
+      "quad": -6.34
+    },
+    "resistance_score": 35,
+    "spread": 2.16,
+    "properties": {
+      "logP": 0.8,
+      "hbd": 4,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 156
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0109",
+    "name": "P218 analog 077",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(N)c1",
+    "mw": 302,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.01,
+      "single": -7.56,
+      "double": -7.45,
+      "triple": -7.97,
+      "quad": -4.68
+    },
+    "resistance_score": 12,
+    "spread": 4.33,
+    "properties": {
+      "logP": 0.5,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 158
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0110",
+    "name": "P218 analog 078",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(O)c1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.53,
+      "single": -8.32,
+      "double": -5.75,
+      "triple": -6.01,
+      "quad": -4.91
+    },
+    "resistance_score": 18,
+    "spread": 3.62,
+    "properties": {
+      "logP": 0.6,
+      "hbd": 5,
+      "hba": 8,
+      "rotatable": 4,
+      "tpsa": 152
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0111",
+    "name": "P218 analog 079",
+    "smiles": "CC(C)NC(=O)c1ccc(Nc2nc(N)nc(N)n2)c(C(F)(F)F)c1",
+    "mw": 355,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.97,
+      "single": -7.32,
+      "double": -7.17,
+      "triple": -6.36,
+      "quad": -5.36
+    },
+    "resistance_score": 24,
+    "spread": 3.61,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 4,
+      "hba": 7,
+      "rotatable": 4,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0112",
+    "name": "Methotrexate analog 080",
+    "smiles": "CN(Cc1c(F)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 424,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.6,
+      "single": -6.42,
+      "double": -8.36,
+      "triple": -7.14,
+      "quad": -4.77
+    },
+    "resistance_score": 15,
+    "spread": 3.83,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0113",
+    "name": "Methotrexate analog 081",
+    "smiles": "CN(Cc1c(Cl)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 441,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.01,
+      "single": -7.7,
+      "double": -7.16,
+      "triple": -6.53,
+      "quad": -7.85
+    },
+    "resistance_score": 47,
+    "spread": 1.48,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0114",
+    "name": "Methotrexate analog 082",
+    "smiles": "Cc1[nH]c2cc(Cl)c(Cl)cc2c1CN(C)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 420,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.66,
+      "single": -7.93,
+      "double": -7.74,
+      "triple": -7.02,
+      "quad": -7.44
+    },
+    "resistance_score": 55,
+    "spread": 0.91,
+    "properties": {
+      "logP": 4.8,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0115",
+    "name": "Methotrexate analog 083",
+    "smiles": "COc1[nH]c2cc(Cl)c(Cl)cc2c1CN(C)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 436,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.17,
+      "single": -7.19,
+      "double": -7.79,
+      "triple": -8.13,
+      "quad": -5.78
+    },
+    "resistance_score": 34,
+    "spread": 2.35,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 95
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0116",
+    "name": "Methotrexate analog 084",
+    "smiles": "CN(Cc1c(C(N)=O)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 449,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.43,
+      "single": -8.68,
+      "double": -6.86,
+      "triple": -5.79,
+      "quad": -7.22
+    },
+    "resistance_score": 32,
+    "spread": 2.89,
+    "properties": {
+      "logP": 3.6,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 129
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0117",
+    "name": "Methotrexate analog 085",
+    "smiles": "CN(Cc1c(C#N)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 431,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.03,
+      "single": -7.63,
+      "double": -8.23,
+      "triple": -6.28,
+      "quad": -7.17
+    },
+    "resistance_score": 42,
+    "spread": 1.95,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 109
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0118",
+    "name": "Methotrexate analog 086",
+    "smiles": "CN(Cc1c(N)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 421,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.35,
+      "single": -8.27,
+      "double": -7.79,
+      "triple": -6.51,
+      "quad": -6.11
+    },
+    "resistance_score": 39,
+    "spread": 2.16,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0119",
+    "name": "Methotrexate analog 087",
+    "smiles": "CN(Cc1c(O)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 422,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.4,
+      "single": -8.23,
+      "double": -7.37,
+      "triple": -8.04,
+      "quad": -6.15
+    },
+    "resistance_score": 40,
+    "spread": 2.08,
+    "properties": {
+      "logP": 4.2,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0120",
+    "name": "Methotrexate analog 088",
+    "smiles": "CN(Cc1c(C(F)(F)F)[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 474,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.48,
+      "single": -7.68,
+      "double": -6.9,
+      "triple": -5.65,
+      "quad": -6.45
+    },
+    "resistance_score": 33,
+    "spread": 2.04,
+    "properties": {
+      "logP": 5.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0121",
+    "name": "Methotrexate analog 089",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(F)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 424,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.97,
+      "single": -7.79,
+      "double": -7.48,
+      "triple": -8.14,
+      "quad": -5.34
+    },
+    "resistance_score": 24,
+    "spread": 3.63,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0122",
+    "name": "Methotrexate analog 090",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(Cl)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 441,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.38,
+      "single": -8.29,
+      "double": -6.18,
+      "triple": -5.77,
+      "quad": -7.5
+    },
+    "resistance_score": 30,
+    "spread": 3.61,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0123",
+    "name": "Methotrexate analog 091",
+    "smiles": "Cc1c(Cl)c(Cl)cc2[nH]cc(CN(C)C(=O)NCc3ccc(C(=O)O)cc3)c12",
+    "mw": 420,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.28,
+      "single": -8.53,
+      "double": -6.18,
+      "triple": -5.61,
+      "quad": -6.36
+    },
+    "resistance_score": 30,
+    "spread": 2.92,
+    "properties": {
+      "logP": 4.8,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0124",
+    "name": "Methotrexate analog 092",
+    "smiles": "COc1c(Cl)c(Cl)cc2[nH]cc(CN(C)C(=O)NCc3ccc(C(=O)O)cc3)c12",
+    "mw": 436,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.87,
+      "single": -7.98,
+      "double": -6.94,
+      "triple": -5.4,
+      "quad": -7.69
+    },
+    "resistance_score": 25,
+    "spread": 3.47,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 95
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0125",
+    "name": "Methotrexate analog 093",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(C(N)=O)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 449,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.12,
+      "single": -6.37,
+      "double": -6.74,
+      "triple": -7.99,
+      "quad": -6.6
+    },
+    "resistance_score": 44,
+    "spread": 1.62,
+    "properties": {
+      "logP": 3.6,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0126",
+    "name": "Methotrexate analog 094",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(C#N)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 431,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.67,
+      "single": -8.77,
+      "double": -6.82,
+      "triple": -6.58,
+      "quad": -7.8
+    },
+    "resistance_score": 45,
+    "spread": 2.2,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 109
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0127",
+    "name": "Methotrexate analog 095",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(N)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 421,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.89,
+      "single": -7.08,
+      "double": -8.0,
+      "triple": -7.72,
+      "quad": -6.92
+    },
+    "resistance_score": 54,
+    "spread": 1.08,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0128",
+    "name": "Methotrexate analog 096",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(O)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 422,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.37,
+      "single": -8.07,
+      "double": -7.46,
+      "triple": -7.77,
+      "quad": -5.68
+    },
+    "resistance_score": 28,
+    "spread": 3.69,
+    "properties": {
+      "logP": 4.2,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0129",
+    "name": "Methotrexate analog 097",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)c(C(F)(F)F)c12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 474,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.52,
+      "single": -8.15,
+      "double": -6.46,
+      "triple": -7.66,
+      "quad": -4.55
+    },
+    "resistance_score": 13,
+    "spread": 3.6,
+    "properties": {
+      "logP": 5.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0130",
+    "name": "Methotrexate analog 098",
+    "smiles": "CN(Cc1c[nH]c2c(F)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 424,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.27,
+      "single": -8.87,
+      "double": -7.4,
+      "triple": -6.36,
+      "quad": -5.36
+    },
+    "resistance_score": 25,
+    "spread": 3.51,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0131",
+    "name": "Methotrexate analog 099",
+    "smiles": "CN(Cc1c[nH]c2c(Cl)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 441,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.57,
+      "single": -8.32,
+      "double": -5.93,
+      "triple": -6.35,
+      "quad": -5.6
+    },
+    "resistance_score": 30,
+    "spread": 2.72,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0132",
+    "name": "Methotrexate analog 100",
+    "smiles": "Cc1c(Cl)c(Cl)cc2c(CN(C)C(=O)NCc3ccc(C(=O)O)cc3)c[nH]c12",
+    "mw": 420,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.6,
+      "single": -6.54,
+      "double": -6.35,
+      "triple": -6.44,
+      "quad": -6.25
+    },
+    "resistance_score": 43,
+    "spread": 1.35,
+    "properties": {
+      "logP": 4.8,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0133",
+    "name": "Methotrexate analog 101",
+    "smiles": "COc1c(Cl)c(Cl)cc2c(CN(C)C(=O)NCc3ccc(C(=O)O)cc3)c[nH]c12",
+    "mw": 436,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.29,
+      "single": -8.86,
+      "double": -6.41,
+      "triple": -6.3,
+      "quad": -7.73
+    },
+    "resistance_score": 39,
+    "spread": 2.98,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 95
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0134",
+    "name": "Methotrexate analog 102",
+    "smiles": "CN(Cc1c[nH]c2c(C(N)=O)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 449,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.45,
+      "single": -6.57,
+      "double": -6.06,
+      "triple": -7.41,
+      "quad": -4.51
+    },
+    "resistance_score": 11,
+    "spread": 3.94,
+    "properties": {
+      "logP": 3.6,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0135",
+    "name": "Methotrexate analog 103",
+    "smiles": "CN(Cc1c[nH]c2c(C#N)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 431,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.4,
+      "single": -7.98,
+      "double": -7.13,
+      "triple": -6.85,
+      "quad": -6.68
+    },
+    "resistance_score": 48,
+    "spread": 1.72,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 109
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0136",
+    "name": "Methotrexate analog 104",
+    "smiles": "CN(Cc1c[nH]c2c(N)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 421,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.25,
+      "single": -7.12,
+      "double": -7.69,
+      "triple": -6.56,
+      "quad": -4.58
+    },
+    "resistance_score": 13,
+    "spread": 3.67,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0137",
+    "name": "Methotrexate analog 105",
+    "smiles": "CN(Cc1c[nH]c2c(O)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 422,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.69,
+      "single": -6.54,
+      "double": -8.32,
+      "triple": -7.32,
+      "quad": -6.39
+    },
+    "resistance_score": 44,
+    "spread": 1.93,
+    "properties": {
+      "logP": 4.2,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0138",
+    "name": "Methotrexate analog 106",
+    "smiles": "CN(Cc1c[nH]c2c(C(F)(F)F)c(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1",
+    "mw": 474,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.33,
+      "single": -8.58,
+      "double": -8.21,
+      "triple": -7.62,
+      "quad": -5.41
+    },
+    "resistance_score": 26,
+    "spread": 3.16,
+    "properties": {
+      "logP": 5.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0139",
+    "name": "Methotrexate analog 107",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1F",
+    "mw": 424,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.47,
+      "single": -7.54,
+      "double": -7.42,
+      "triple": -6.75,
+      "quad": -6.24
+    },
+    "resistance_score": 43,
+    "spread": 1.3,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0140",
+    "name": "Methotrexate analog 108",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1Cl",
+    "mw": 441,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.36,
+      "single": -7.96,
+      "double": -7.14,
+      "triple": -7.94,
+      "quad": -7.9
+    },
+    "resistance_score": 58,
+    "spread": 0.82,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0141",
+    "name": "Methotrexate analog 109",
+    "smiles": "Cc1cc(C(=O)O)ccc1CNC(=O)N(C)Cc1c[nH]c2cc(Cl)c(Cl)cc12",
+    "mw": 420,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.17,
+      "single": -7.06,
+      "double": -7.82,
+      "triple": -6.53,
+      "quad": -4.98
+    },
+    "resistance_score": 20,
+    "spread": 3.19,
+    "properties": {
+      "logP": 4.8,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0142",
+    "name": "Methotrexate analog 110",
+    "smiles": "COc1cc(C(=O)O)ccc1CNC(=O)N(C)Cc1c[nH]c2cc(Cl)c(Cl)cc12",
+    "mw": 436,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.26,
+      "single": -8.58,
+      "double": -6.36,
+      "triple": -7.91,
+      "quad": -4.61
+    },
+    "resistance_score": 13,
+    "spread": 3.96,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 95
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0143",
+    "name": "Methotrexate analog 111",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1C(N)=O",
+    "mw": 449,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.14,
+      "single": -7.39,
+      "double": -7.07,
+      "triple": -6.61,
+      "quad": -6.57
+    },
+    "resistance_score": 49,
+    "spread": 0.83,
+    "properties": {
+      "logP": 3.6,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0144",
+    "name": "Methotrexate analog 112",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1C#N",
+    "mw": 431,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.6,
+      "single": -7.81,
+      "double": -6.23,
+      "triple": -6.35,
+      "quad": -5.54
+    },
+    "resistance_score": 28,
+    "spread": 3.06,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 109
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0145",
+    "name": "Methotrexate analog 113",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1N",
+    "mw": 421,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.79,
+      "single": -6.48,
+      "double": -8.31,
+      "triple": -6.82,
+      "quad": -6.82
+    },
+    "resistance_score": 45,
+    "spread": 1.82,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0146",
+    "name": "Methotrexate analog 114",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1O",
+    "mw": 422,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.3,
+      "single": -7.38,
+      "double": -8.02,
+      "triple": -6.13,
+      "quad": -5.54
+    },
+    "resistance_score": 26,
+    "spread": 3.75,
+    "properties": {
+      "logP": 4.2,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0147",
+    "name": "Methotrexate analog 115",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)cc1C(F)(F)F",
+    "mw": 474,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.57,
+      "single": -6.65,
+      "double": -6.7,
+      "triple": -7.05,
+      "quad": -6.22
+    },
+    "resistance_score": 40,
+    "spread": 2.36,
+    "properties": {
+      "logP": 5.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0148",
+    "name": "Methotrexate analog 116",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(F)c1",
+    "mw": 424,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.53,
+      "single": -7.67,
+      "double": -6.68,
+      "triple": -7.1,
+      "quad": -6.64
+    },
+    "resistance_score": 47,
+    "spread": 1.9,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0149",
+    "name": "Methotrexate analog 117",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(Cl)c1",
+    "mw": 441,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.55,
+      "single": -8.53,
+      "double": -6.43,
+      "triple": -6.57,
+      "quad": -4.61
+    },
+    "resistance_score": 13,
+    "spread": 3.93,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0150",
+    "name": "Methotrexate analog 118",
+    "smiles": "Cc1cc(CNC(=O)N(C)Cc2c[nH]c3cc(Cl)c(Cl)cc23)ccc1C(=O)O",
+    "mw": 420,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.76,
+      "single": -6.55,
+      "double": -7.14,
+      "triple": -8.19,
+      "quad": -7.16
+    },
+    "resistance_score": 47,
+    "spread": 1.65,
+    "properties": {
+      "logP": 4.8,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0151",
+    "name": "Methotrexate analog 119",
+    "smiles": "COc1cc(CNC(=O)N(C)Cc2c[nH]c3cc(Cl)c(Cl)cc23)ccc1C(=O)O",
+    "mw": 436,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.15,
+      "single": -8.17,
+      "double": -8.24,
+      "triple": -6.18,
+      "quad": -6.36
+    },
+    "resistance_score": 40,
+    "spread": 2.06,
+    "properties": {
+      "logP": 4.5,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 95
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0152",
+    "name": "Methotrexate analog 120",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(C(N)=O)c1",
+    "mw": 449,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.65,
+      "single": -6.9,
+      "double": -8.08,
+      "triple": -6.65,
+      "quad": -6.91
+    },
+    "resistance_score": 47,
+    "spread": 2.0,
+    "properties": {
+      "logP": 3.6,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 6,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0153",
+    "name": "Methotrexate analog 121",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(C#N)c1",
+    "mw": 431,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.49,
+      "single": -7.46,
+      "double": -7.0,
+      "triple": -6.8,
+      "quad": -6.93
+    },
+    "resistance_score": 50,
+    "spread": 1.69,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 109
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0154",
+    "name": "Methotrexate analog 122",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(N)c1",
+    "mw": 421,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.01,
+      "single": -6.87,
+      "double": -8.19,
+      "triple": -7.84,
+      "quad": -6.14
+    },
+    "resistance_score": 37,
+    "spread": 2.88,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0155",
+    "name": "Methotrexate analog 123",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(O)c1",
+    "mw": 422,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.16,
+      "single": -6.83,
+      "double": -6.9,
+      "triple": -8.15,
+      "quad": -6.25
+    },
+    "resistance_score": 42,
+    "spread": 1.9,
+    "properties": {
+      "logP": 4.2,
+      "hbd": 4,
+      "hba": 3,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0156",
+    "name": "Methotrexate analog 124",
+    "smiles": "CN(Cc1c[nH]c2cc(Cl)c(Cl)cc12)C(=O)NCc1ccc(C(=O)O)c(C(F)(F)F)c1",
+    "mw": 474,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.04,
+      "single": -6.66,
+      "double": -6.91,
+      "triple": -6.79,
+      "quad": -5.86
+    },
+    "resistance_score": 33,
+    "spread": 3.18,
+    "properties": {
+      "logP": 5.5,
+      "hbd": 3,
+      "hba": 2,
+      "rotatable": 5,
+      "tpsa": 85
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0157",
+    "name": "Trimethoprim analog 125",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(F)c(OC)c1OC",
+    "mw": 308,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.71,
+      "single": -6.96,
+      "double": -8.13,
+      "triple": -7.07,
+      "quad": -7.82
+    },
+    "resistance_score": 54,
+    "spread": 1.17,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0158",
+    "name": "Trimethoprim analog 126",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(Cl)c(OC)c1OC",
+    "mw": 325,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.38,
+      "single": -7.11,
+      "double": -7.53,
+      "triple": -6.96,
+      "quad": -4.69
+    },
+    "resistance_score": 15,
+    "spread": 3.7,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0159",
+    "name": "Trimethoprim analog 127",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(C)c(OC)c1OC",
+    "mw": 304,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.93,
+      "single": -7.19,
+      "double": -7.17,
+      "triple": -6.0,
+      "quad": -7.41
+    },
+    "resistance_score": 38,
+    "spread": 1.93,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0160",
+    "name": "Trimethoprim analog 128",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(OC)c(OC)c1OC",
+    "mw": 320,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.6,
+      "single": -6.33,
+      "double": -7.86,
+      "triple": -7.26,
+      "quad": -6.61
+    },
+    "resistance_score": 42,
+    "spread": 2.27,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 2,
+      "hba": 8,
+      "rotatable": 6,
+      "tpsa": 115
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0161",
+    "name": "Trimethoprim analog 129",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(C(N)=O)c(OC)c1OC",
+    "mw": 333,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.06,
+      "single": -7.26,
+      "double": -5.92,
+      "triple": -6.1,
+      "quad": -7.42
+    },
+    "resistance_score": 36,
+    "spread": 2.15,
+    "properties": {
+      "logP": 0.4,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 6,
+      "tpsa": 149
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0162",
+    "name": "Trimethoprim analog 130",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(C#N)c(OC)c1OC",
+    "mw": 315,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.52,
+      "single": -6.73,
+      "double": -6.68,
+      "triple": -6.46,
+      "quad": -7.76
+    },
+    "resistance_score": 44,
+    "spread": 2.06,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 2,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0163",
+    "name": "Trimethoprim analog 131",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(N)c(OC)c1OC",
+    "mw": 305,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.03,
+      "single": -8.59,
+      "double": -6.51,
+      "triple": -6.95,
+      "quad": -6.77
+    },
+    "resistance_score": 44,
+    "spread": 2.52,
+    "properties": {
+      "logP": 0.8,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0164",
+    "name": "Trimethoprim analog 132",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(O)c(OC)c1OC",
+    "mw": 306,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.27,
+      "single": -6.6,
+      "double": -6.31,
+      "triple": -7.54,
+      "quad": -6.03
+    },
+    "resistance_score": 40,
+    "spread": 1.52,
+    "properties": {
+      "logP": 1.0,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 126
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0165",
+    "name": "Trimethoprim analog 133",
+    "smiles": "COc1cc(Cc2cnc(N)nc2N)c(C(F)(F)F)c(OC)c1OC",
+    "mw": 358,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.12,
+      "single": -7.94,
+      "double": -8.26,
+      "triple": -7.8,
+      "quad": -4.88
+    },
+    "resistance_score": 18,
+    "spread": 3.37,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0166",
+    "name": "Trimethoprim analog 134",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2F)cc(OC)c1OC",
+    "mw": 308,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.38,
+      "single": -6.35,
+      "double": -8.05,
+      "triple": -6.31,
+      "quad": -6.76
+    },
+    "resistance_score": 43,
+    "spread": 1.74,
+    "properties": {
+      "logP": 1.4,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0167",
+    "name": "Trimethoprim analog 135",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2Cl)cc(OC)c1OC",
+    "mw": 325,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.19,
+      "single": -8.44,
+      "double": -6.68,
+      "triple": -7.18,
+      "quad": -5.55
+    },
+    "resistance_score": 29,
+    "spread": 2.9,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0168",
+    "name": "Trimethoprim analog 136",
+    "smiles": "COc1cc(Cc2c(C)nc(N)nc2N)cc(OC)c1OC",
+    "mw": 304,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.07,
+      "single": -7.72,
+      "double": -7.6,
+      "triple": -7.83,
+      "quad": -6.03
+    },
+    "resistance_score": 38,
+    "spread": 2.04,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0169",
+    "name": "Trimethoprim analog 137",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2OC)cc(OC)c1OC",
+    "mw": 320,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.31,
+      "single": -8.9,
+      "double": -6.81,
+      "triple": -6.88,
+      "quad": -5.59
+    },
+    "resistance_score": 28,
+    "spread": 3.31,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 2,
+      "hba": 8,
+      "rotatable": 6,
+      "tpsa": 115
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0170",
+    "name": "Trimethoprim analog 138",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2C(N)=O)cc(OC)c1OC",
+    "mw": 333,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.71,
+      "single": -6.38,
+      "double": -6.53,
+      "triple": -5.96,
+      "quad": -5.6
+    },
+    "resistance_score": 29,
+    "spread": 3.11,
+    "properties": {
+      "logP": 0.4,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 6,
+      "tpsa": 149
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0171",
+    "name": "Trimethoprim analog 139",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2C#N)cc(OC)c1OC",
+    "mw": 315,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.67,
+      "single": -6.76,
+      "double": -7.59,
+      "triple": -5.83,
+      "quad": -6.44
+    },
+    "resistance_score": 36,
+    "spread": 1.84,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 2,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 129
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0172",
+    "name": "Trimethoprim analog 140",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2N)cc(OC)c1OC",
+    "mw": 305,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.2,
+      "single": -7.38,
+      "double": -7.39,
+      "triple": -7.93,
+      "quad": -7.36
+    },
+    "resistance_score": 61,
+    "spread": 0.83,
+    "properties": {
+      "logP": 0.8,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 132
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0173",
+    "name": "Trimethoprim analog 141",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2O)cc(OC)c1OC",
+    "mw": 306,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.78,
+      "single": -8.65,
+      "double": -6.14,
+      "triple": -6.71,
+      "quad": -6.76
+    },
+    "resistance_score": 38,
+    "spread": 2.63,
+    "properties": {
+      "logP": 1.0,
+      "hbd": 3,
+      "hba": 8,
+      "rotatable": 5,
+      "tpsa": 126
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0174",
+    "name": "Trimethoprim analog 142",
+    "smiles": "COc1cc(Cc2c(N)nc(N)nc2C(F)(F)F)cc(OC)c1OC",
+    "mw": 358,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.06,
+      "single": -7.01,
+      "double": -7.82,
+      "triple": -6.24,
+      "quad": -4.54
+    },
+    "resistance_score": 14,
+    "spread": 3.28,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 7,
+      "rotatable": 5,
+      "tpsa": 106
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0175",
+    "name": "Proguanil analog 143",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1F",
+    "mw": 272,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.16,
+      "single": -7.73,
+      "double": -7.14,
+      "triple": -6.52,
+      "quad": -6.26
+    },
+    "resistance_score": 43,
+    "spread": 1.47,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0176",
+    "name": "Proguanil analog 144",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1Cl",
+    "mw": 288,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.25,
+      "single": -7.99,
+      "double": -6.12,
+      "triple": -6.88,
+      "quad": -7.29
+    },
+    "resistance_score": 36,
+    "spread": 3.13,
+    "properties": {
+      "logP": 2.9,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0177",
+    "name": "Proguanil analog 145",
+    "smiles": "Cc1cc(Cl)ccc1NC(=N)NC(=N)NC(C)C",
+    "mw": 268,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.33,
+      "single": -7.14,
+      "double": -6.21,
+      "triple": -7.74,
+      "quad": -5.56
+    },
+    "resistance_score": 27,
+    "spread": 3.76,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0178",
+    "name": "Proguanil analog 146",
+    "smiles": "COc1cc(Cl)ccc1NC(=N)NC(=N)NC(C)C",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.68,
+      "single": -8.69,
+      "double": -7.88,
+      "triple": -7.89,
+      "quad": -6.51
+    },
+    "resistance_score": 45,
+    "spread": 2.18,
+    "properties": {
+      "logP": 2.2,
+      "hbd": 5,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 93
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0179",
+    "name": "Proguanil analog 147",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1C(N)=O",
+    "mw": 297,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.32,
+      "single": -6.69,
+      "double": -7.9,
+      "triple": -6.03,
+      "quad": -7.85
+    },
+    "resistance_score": 34,
+    "spread": 3.3,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 127
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0180",
+    "name": "Proguanil analog 148",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1C#N",
+    "mw": 279,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.03,
+      "single": -8.31,
+      "double": -7.24,
+      "triple": -5.86,
+      "quad": -7.2
+    },
+    "resistance_score": 33,
+    "spread": 3.17,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 5,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 108
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0181",
+    "name": "Proguanil analog 149",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1N",
+    "mw": 269,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.49,
+      "single": -6.84,
+      "double": -8.08,
+      "triple": -7.73,
+      "quad": -7.52
+    },
+    "resistance_score": 51,
+    "spread": 1.65,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 110
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0182",
+    "name": "Proguanil analog 150",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1O",
+    "mw": 270,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.13,
+      "single": -8.15,
+      "double": -6.69,
+      "triple": -6.45,
+      "quad": -5.58
+    },
+    "resistance_score": 30,
+    "spread": 2.57,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0183",
+    "name": "Proguanil analog 151",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)cc1C(F)(F)F",
+    "mw": 322,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.2,
+      "single": -6.66,
+      "double": -6.39,
+      "triple": -5.58,
+      "quad": -5.22
+    },
+    "resistance_score": 24,
+    "spread": 2.98,
+    "properties": {
+      "logP": 3.2,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0184",
+    "name": "Proguanil analog 152",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(F)c1",
+    "mw": 272,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.01,
+      "single": -6.45,
+      "double": -5.93,
+      "triple": -5.68,
+      "quad": -5.86
+    },
+    "resistance_score": 32,
+    "spread": 2.33,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0185",
+    "name": "Proguanil analog 153",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(Cl)c1",
+    "mw": 288,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.11,
+      "single": -8.83,
+      "double": -7.88,
+      "triple": -7.98,
+      "quad": -5.57
+    },
+    "resistance_score": 28,
+    "spread": 3.26,
+    "properties": {
+      "logP": 2.9,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0186",
+    "name": "Proguanil analog 154",
+    "smiles": "Cc1cc(NC(=N)NC(=N)NC(C)C)ccc1Cl",
+    "mw": 268,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.22,
+      "single": -8.94,
+      "double": -6.25,
+      "triple": -7.05,
+      "quad": -4.7
+    },
+    "resistance_score": 13,
+    "spread": 4.24,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0187",
+    "name": "Proguanil analog 155",
+    "smiles": "COc1cc(NC(=N)NC(=N)NC(C)C)ccc1Cl",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.21,
+      "single": -8.44,
+      "double": -7.94,
+      "triple": -5.53,
+      "quad": -5.54
+    },
+    "resistance_score": 29,
+    "spread": 2.92,
+    "properties": {
+      "logP": 2.2,
+      "hbd": 5,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 93
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0188",
+    "name": "Proguanil analog 156",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(C(N)=O)c1",
+    "mw": 297,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.31,
+      "single": -6.51,
+      "double": -7.99,
+      "triple": -7.93,
+      "quad": -6.65
+    },
+    "resistance_score": 43,
+    "spread": 2.81,
+    "properties": {
+      "logP": 1.3,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 127
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0189",
+    "name": "Proguanil analog 157",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(C#N)c1",
+    "mw": 279,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.38,
+      "single": -8.43,
+      "double": -6.76,
+      "triple": -7.7,
+      "quad": -6.66
+    },
+    "resistance_score": 48,
+    "spread": 1.77,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 5,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 108
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0190",
+    "name": "Proguanil analog 158",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(N)c1",
+    "mw": 269,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.47,
+      "single": -6.64,
+      "double": -6.63,
+      "triple": -6.99,
+      "quad": -4.81
+    },
+    "resistance_score": 16,
+    "spread": 3.66,
+    "properties": {
+      "logP": 1.8,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 110
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0191",
+    "name": "Proguanil analog 159",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(O)c1",
+    "mw": 270,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.54,
+      "single": -7.14,
+      "double": -8.43,
+      "triple": -7.4,
+      "quad": -5.61
+    },
+    "resistance_score": 30,
+    "spread": 2.82,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 6,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 104
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0192",
+    "name": "Proguanil analog 160",
+    "smiles": "CC(C)NC(=N)NC(=N)Nc1ccc(Cl)c(C(F)(F)F)c1",
+    "mw": 322,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.01,
+      "single": -8.3,
+      "double": -6.32,
+      "triple": -5.59,
+      "quad": -7.41
+    },
+    "resistance_score": 30,
+    "spread": 2.72,
+    "properties": {
+      "logP": 3.2,
+      "hbd": 5,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 84
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0193",
+    "name": "Chlorcycloguanil analog 161",
+    "smiles": "Nc1nc(N)nc(-c2cc(F)c(Cl)c(Cl)c2)n1",
+    "mw": 274,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.41,
+      "single": -6.61,
+      "double": -7.02,
+      "triple": -6.09,
+      "quad": -5.84
+    },
+    "resistance_score": 37,
+    "spread": 1.57,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0194",
+    "name": "Chlorcycloguanil analog 162",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)c(Cl)c2)n1",
+    "mw": 291,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.33,
+      "single": -7.42,
+      "double": -8.06,
+      "triple": -7.4,
+      "quad": -6.53
+    },
+    "resistance_score": 47,
+    "spread": 1.53,
+    "properties": {
+      "logP": 2.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0195",
+    "name": "Chlorcycloguanil analog 163",
+    "smiles": "Cc1cc(-c2nc(N)nc(N)n2)cc(Cl)c1Cl",
+    "mw": 270,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.89,
+      "single": -7.38,
+      "double": -7.77,
+      "triple": -7.0,
+      "quad": -5.23
+    },
+    "resistance_score": 25,
+    "spread": 2.66,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0196",
+    "name": "Chlorcycloguanil analog 164",
+    "smiles": "COc1cc(-c2nc(N)nc(N)n2)cc(Cl)c1Cl",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.19,
+      "single": -6.62,
+      "double": -6.35,
+      "triple": -8.02,
+      "quad": -5.89
+    },
+    "resistance_score": 36,
+    "spread": 2.3,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0197",
+    "name": "Chlorcycloguanil analog 165",
+    "smiles": "NC(=O)c1cc(-c2nc(N)nc(N)n2)cc(Cl)c1Cl",
+    "mw": 299,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.28,
+      "single": -6.64,
+      "double": -8.37,
+      "triple": -6.33,
+      "quad": -6.36
+    },
+    "resistance_score": 40,
+    "spread": 2.94,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 134
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0198",
+    "name": "Chlorcycloguanil analog 166",
+    "smiles": "N#Cc1cc(-c2nc(N)nc(N)n2)cc(Cl)c1Cl",
+    "mw": 281,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.17,
+      "single": -8.46,
+      "double": -6.21,
+      "triple": -8.13,
+      "quad": -7.0
+    },
+    "resistance_score": 38,
+    "spread": 2.96,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 114
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0199",
+    "name": "Chlorcycloguanil analog 167",
+    "smiles": "Nc1nc(N)nc(-c2cc(N)c(Cl)c(Cl)c2)n1",
+    "mw": 271,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.21,
+      "single": -8.73,
+      "double": -7.71,
+      "triple": -7.22,
+      "quad": -4.9
+    },
+    "resistance_score": 16,
+    "spread": 4.31,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 117
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0200",
+    "name": "Chlorcycloguanil analog 168",
+    "smiles": "Nc1nc(N)nc(-c2cc(O)c(Cl)c(Cl)c2)n1",
+    "mw": 272,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.93,
+      "single": -6.8,
+      "double": -6.14,
+      "triple": -6.07,
+      "quad": -4.94
+    },
+    "resistance_score": 20,
+    "spread": 2.99,
+    "properties": {
+      "logP": 1.7,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0201",
+    "name": "Chlorcycloguanil analog 169",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)c(C(F)(F)F)c2)n1",
+    "mw": 324,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.05,
+      "single": -8.46,
+      "double": -6.08,
+      "triple": -6.67,
+      "quad": -7.88
+    },
+    "resistance_score": 36,
+    "spread": 2.97,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0202",
+    "name": "Chlorcycloguanil analog 170",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)cc2F)n1",
+    "mw": 274,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.18,
+      "single": -7.03,
+      "double": -6.76,
+      "triple": -6.41,
+      "quad": -7.26
+    },
+    "resistance_score": 41,
+    "spread": 2.76,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0203",
+    "name": "Chlorcycloguanil analog 171",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)cc2Cl)n1",
+    "mw": 291,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.0,
+      "single": -7.41,
+      "double": -7.61,
+      "triple": -5.98,
+      "quad": -7.27
+    },
+    "resistance_score": 38,
+    "spread": 2.02,
+    "properties": {
+      "logP": 2.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0204",
+    "name": "Chlorcycloguanil analog 172",
+    "smiles": "Cc1cc(Cl)c(Cl)cc1-c1nc(N)nc(N)n1",
+    "mw": 270,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.13,
+      "single": -6.55,
+      "double": -7.11,
+      "triple": -6.64,
+      "quad": -4.88
+    },
+    "resistance_score": 15,
+    "spread": 4.25,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0205",
+    "name": "Chlorcycloguanil analog 173",
+    "smiles": "COc1cc(Cl)c(Cl)cc1-c1nc(N)nc(N)n1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.66,
+      "single": -8.73,
+      "double": -7.45,
+      "triple": -7.83,
+      "quad": -7.52
+    },
+    "resistance_score": 60,
+    "spread": 1.29,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0206",
+    "name": "Chlorcycloguanil analog 174",
+    "smiles": "NC(=O)c1cc(Cl)c(Cl)cc1-c1nc(N)nc(N)n1",
+    "mw": 299,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.0,
+      "single": -8.73,
+      "double": -6.85,
+      "triple": -7.52,
+      "quad": -7.68
+    },
+    "resistance_score": 50,
+    "spread": 1.87,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 134
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0207",
+    "name": "Chlorcycloguanil analog 175",
+    "smiles": "N#Cc1cc(Cl)c(Cl)cc1-c1nc(N)nc(N)n1",
+    "mw": 281,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.38,
+      "single": -6.32,
+      "double": -6.56,
+      "triple": -7.0,
+      "quad": -6.96
+    },
+    "resistance_score": 39,
+    "spread": 3.06,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 114
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0208",
+    "name": "Chlorcycloguanil analog 176",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)cc2N)n1",
+    "mw": 271,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.85,
+      "single": -7.19,
+      "double": -6.63,
+      "triple": -7.25,
+      "quad": -6.54
+    },
+    "resistance_score": 48,
+    "spread": 1.31,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 117
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0209",
+    "name": "Chlorcycloguanil analog 177",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)cc2O)n1",
+    "mw": 272,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.59,
+      "single": -6.79,
+      "double": -6.87,
+      "triple": -5.58,
+      "quad": -6.93
+    },
+    "resistance_score": 29,
+    "spread": 3.02,
+    "properties": {
+      "logP": 1.7,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0210",
+    "name": "Chlorcycloguanil analog 178",
+    "smiles": "Nc1nc(N)nc(-c2cc(Cl)c(Cl)cc2C(F)(F)F)n1",
+    "mw": 324,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.46,
+      "single": -8.28,
+      "double": -7.36,
+      "triple": -6.83,
+      "quad": -7.76
+    },
+    "resistance_score": 51,
+    "spread": 1.45,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0211",
+    "name": "Chlorcycloguanil analog 179",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2F)n1",
+    "mw": 274,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.56,
+      "single": -8.6,
+      "double": -6.58,
+      "triple": -6.84,
+      "quad": -6.67
+    },
+    "resistance_score": 46,
+    "spread": 2.02,
+    "properties": {
+      "logP": 2.1,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0212",
+    "name": "Chlorcycloguanil analog 180",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2Cl)n1",
+    "mw": 291,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.41,
+      "single": -7.04,
+      "double": -6.7,
+      "triple": -8.13,
+      "quad": -6.13
+    },
+    "resistance_score": 39,
+    "spread": 2.29,
+    "properties": {
+      "logP": 2.7,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0213",
+    "name": "Chlorcycloguanil analog 181",
+    "smiles": "Cc1c(-c2nc(N)nc(N)n2)ccc(Cl)c1Cl",
+    "mw": 270,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.99,
+      "single": -7.45,
+      "double": -6.08,
+      "triple": -6.27,
+      "quad": -7.47
+    },
+    "resistance_score": 39,
+    "spread": 1.91,
+    "properties": {
+      "logP": 2.3,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0214",
+    "name": "Chlorcycloguanil analog 182",
+    "smiles": "COc1c(-c2nc(N)nc(N)n2)ccc(Cl)c1Cl",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.54,
+      "single": -8.83,
+      "double": -6.11,
+      "triple": -6.55,
+      "quad": -5.54
+    },
+    "resistance_score": 28,
+    "spread": 3.29,
+    "properties": {
+      "logP": 2.0,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 100
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0215",
+    "name": "Chlorcycloguanil analog 183",
+    "smiles": "NC(=O)c1c(-c2nc(N)nc(N)n2)ccc(Cl)c1Cl",
+    "mw": 299,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.56,
+      "single": -7.18,
+      "double": -8.2,
+      "triple": -6.39,
+      "quad": -6.58
+    },
+    "resistance_score": 44,
+    "spread": 1.82,
+    "properties": {
+      "logP": 1.1,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 2,
+      "tpsa": 134
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0216",
+    "name": "Chlorcycloguanil analog 184",
+    "smiles": "N#Cc1c(-c2nc(N)nc(N)n2)ccc(Cl)c1Cl",
+    "mw": 281,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.28,
+      "single": -6.72,
+      "double": -5.77,
+      "triple": -6.04,
+      "quad": -6.31
+    },
+    "resistance_score": 30,
+    "spread": 3.52,
+    "properties": {
+      "logP": 1.9,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 114
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0217",
+    "name": "Chlorcycloguanil analog 185",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2N)n1",
+    "mw": 271,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.57,
+      "single": -8.86,
+      "double": -6.86,
+      "triple": -7.37,
+      "quad": -5.65
+    },
+    "resistance_score": 30,
+    "spread": 3.21,
+    "properties": {
+      "logP": 1.6,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 117
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0218",
+    "name": "Chlorcycloguanil analog 186",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2O)n1",
+    "mw": 272,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.82,
+      "single": -8.74,
+      "double": -8.1,
+      "triple": -7.76,
+      "quad": -7.76
+    },
+    "resistance_score": 66,
+    "spread": 0.98,
+    "properties": {
+      "logP": 1.7,
+      "hbd": 3,
+      "hba": 6,
+      "rotatable": 1,
+      "tpsa": 111
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0219",
+    "name": "Chlorcycloguanil analog 187",
+    "smiles": "Nc1nc(N)nc(-c2ccc(Cl)c(Cl)c2C(F)(F)F)n1",
+    "mw": 324,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.06,
+      "single": -6.33,
+      "double": -8.26,
+      "triple": -7.65,
+      "quad": -5.97
+    },
+    "resistance_score": 34,
+    "spread": 3.08,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 2,
+      "hba": 5,
+      "rotatable": 1,
+      "tpsa": 91
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0220",
+    "name": "Atovaquone analog 188",
+    "smiles": "CC1CCC(C(=O)c2c(F)cc(O)c3ccccc23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.52,
+      "single": -6.93,
+      "double": -7.26,
+      "triple": -7.79,
+      "quad": -5.77
+    },
+    "resistance_score": 35,
+    "spread": 2.02,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0221",
+    "name": "Atovaquone analog 189",
+    "smiles": "CC1CCC(C(=O)c2c(Cl)cc(O)c3ccccc23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.13,
+      "single": -8.34,
+      "double": -7.09,
+      "triple": -5.47,
+      "quad": -5.55
+    },
+    "resistance_score": 28,
+    "spread": 2.88,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0222",
+    "name": "Atovaquone analog 190",
+    "smiles": "Cc1cc(O)c2ccccc2c1C(=O)C1CCC(C)CC1",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.24,
+      "single": -7.8,
+      "double": -6.5,
+      "triple": -7.95,
+      "quad": -4.83
+    },
+    "resistance_score": 17,
+    "spread": 3.41,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0223",
+    "name": "Atovaquone analog 191",
+    "smiles": "COc1cc(O)c2ccccc2c1C(=O)C1CCC(C)CC1",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.75,
+      "single": -6.67,
+      "double": -8.4,
+      "triple": -7.41,
+      "quad": -5.31
+    },
+    "resistance_score": 25,
+    "spread": 3.1,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0224",
+    "name": "Atovaquone analog 192",
+    "smiles": "CC1CCC(C(=O)c2c(C(N)=O)cc(O)c3ccccc23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.77,
+      "single": -7.81,
+      "double": -6.56,
+      "triple": -6.34,
+      "quad": -6.68
+    },
+    "resistance_score": 44,
+    "spread": 1.47,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0225",
+    "name": "Atovaquone analog 193",
+    "smiles": "CC1CCC(C(=O)c2c(C#N)cc(O)c3ccccc23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.67,
+      "single": -8.03,
+      "double": -7.16,
+      "triple": -6.25,
+      "quad": -4.86
+    },
+    "resistance_score": 19,
+    "spread": 3.17,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0226",
+    "name": "Atovaquone analog 194",
+    "smiles": "CC1CCC(C(=O)c2c(N)cc(O)c3ccccc23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.84,
+      "single": -8.16,
+      "double": -6.31,
+      "triple": -7.29,
+      "quad": -6.17
+    },
+    "resistance_score": 38,
+    "spread": 2.67,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0227",
+    "name": "Atovaquone analog 195",
+    "smiles": "CC1CCC(C(=O)c2c(O)cc(O)c3ccccc23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.41,
+      "single": -8.03,
+      "double": -6.24,
+      "triple": -5.48,
+      "quad": -7.74
+    },
+    "resistance_score": 29,
+    "spread": 2.55,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0228",
+    "name": "Atovaquone analog 196",
+    "smiles": "CC1CCC(C(=O)c2c(C(F)(F)F)cc(O)c3ccccc23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.52,
+      "single": -8.95,
+      "double": -6.19,
+      "triple": -6.19,
+      "quad": -5.27
+    },
+    "resistance_score": 23,
+    "spread": 3.68,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0229",
+    "name": "Atovaquone analog 197",
+    "smiles": "CC1CCC(C(=O)c2cc(F)c(O)c3ccccc23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.83,
+      "single": -8.91,
+      "double": -6.35,
+      "triple": -7.2,
+      "quad": -5.95
+    },
+    "resistance_score": 34,
+    "spread": 2.96,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0230",
+    "name": "Atovaquone analog 198",
+    "smiles": "CC1CCC(C(=O)c2cc(Cl)c(O)c3ccccc23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.4,
+      "single": -8.47,
+      "double": -8.27,
+      "triple": -5.58,
+      "quad": -4.9
+    },
+    "resistance_score": 18,
+    "spread": 3.57,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0231",
+    "name": "Atovaquone analog 199",
+    "smiles": "Cc1cc(C(=O)C2CCC(C)CC2)c2ccccc2c1O",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.34,
+      "single": -6.4,
+      "double": -6.28,
+      "triple": -6.99,
+      "quad": -6.82
+    },
+    "resistance_score": 42,
+    "spread": 2.06,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0232",
+    "name": "Atovaquone analog 200",
+    "smiles": "COc1cc(C(=O)C2CCC(C)CC2)c2ccccc2c1O",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.09,
+      "single": -8.79,
+      "double": -8.29,
+      "triple": -6.21,
+      "quad": -5.54
+    },
+    "resistance_score": 28,
+    "spread": 3.25,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0233",
+    "name": "Atovaquone analog 201",
+    "smiles": "CC1CCC(C(=O)c2cc(C(N)=O)c(O)c3ccccc23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.01,
+      "single": -8.91,
+      "double": -7.59,
+      "triple": -8.08,
+      "quad": -4.99
+    },
+    "resistance_score": 18,
+    "spread": 3.91,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0234",
+    "name": "Atovaquone analog 202",
+    "smiles": "CC1CCC(C(=O)c2cc(C#N)c(O)c3ccccc23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.37,
+      "single": -7.85,
+      "double": -8.46,
+      "triple": -7.19,
+      "quad": -7.74
+    },
+    "resistance_score": 57,
+    "spread": 1.27,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0235",
+    "name": "Atovaquone analog 203",
+    "smiles": "CC1CCC(C(=O)c2cc(N)c(O)c3ccccc23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.28,
+      "single": -6.81,
+      "double": -7.32,
+      "triple": -5.99,
+      "quad": -6.32
+    },
+    "resistance_score": 34,
+    "spread": 3.29,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0236",
+    "name": "Atovaquone analog 204",
+    "smiles": "CC1CCC(C(=O)c2cc(O)c(O)c3ccccc23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.55,
+      "single": -8.82,
+      "double": -7.88,
+      "triple": -7.51,
+      "quad": -4.66
+    },
+    "resistance_score": 13,
+    "spread": 4.16,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0237",
+    "name": "Atovaquone analog 205",
+    "smiles": "CC1CCC(C(=O)c2cc(C(F)(F)F)c(O)c3ccccc23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.04,
+      "single": -8.36,
+      "double": -7.12,
+      "triple": -6.68,
+      "quad": -5.45
+    },
+    "resistance_score": 28,
+    "spread": 2.91,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0238",
+    "name": "Atovaquone analog 206",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(F)cccc23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.23,
+      "single": -7.06,
+      "double": -8.23,
+      "triple": -5.51,
+      "quad": -7.29
+    },
+    "resistance_score": 29,
+    "spread": 2.72,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0239",
+    "name": "Atovaquone analog 207",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(Cl)cccc23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.03,
+      "single": -7.22,
+      "double": -7.67,
+      "triple": -7.59,
+      "quad": -7.55
+    },
+    "resistance_score": 59,
+    "spread": 0.8,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0240",
+    "name": "Atovaquone analog 208",
+    "smiles": "Cc1cccc2c(C(=O)C3CCC(C)CC3)ccc(O)c12",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.07,
+      "single": -8.68,
+      "double": -7.18,
+      "triple": -6.61,
+      "quad": -5.32
+    },
+    "resistance_score": 24,
+    "spread": 3.36,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0241",
+    "name": "Atovaquone analog 209",
+    "smiles": "COc1cccc2c(C(=O)C3CCC(C)CC3)ccc(O)c12",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.95,
+      "single": -7.78,
+      "double": -6.47,
+      "triple": -6.76,
+      "quad": -6.29
+    },
+    "resistance_score": 40,
+    "spread": 2.66,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0242",
+    "name": "Atovaquone analog 210",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(C(N)=O)cccc23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.08,
+      "single": -8.02,
+      "double": -6.96,
+      "triple": -7.1,
+      "quad": -5.71
+    },
+    "resistance_score": 30,
+    "spread": 3.37,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0243",
+    "name": "Atovaquone analog 211",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(C#N)cccc23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.19,
+      "single": -6.31,
+      "double": -6.02,
+      "triple": -7.11,
+      "quad": -7.72
+    },
+    "resistance_score": 38,
+    "spread": 2.17,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0244",
+    "name": "Atovaquone analog 212",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(N)cccc23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.16,
+      "single": -8.14,
+      "double": -6.73,
+      "triple": -6.63,
+      "quad": -6.03
+    },
+    "resistance_score": 38,
+    "spread": 2.11,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0245",
+    "name": "Atovaquone analog 213",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(O)cccc23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.8,
+      "single": -8.5,
+      "double": -6.56,
+      "triple": -5.62,
+      "quad": -4.54
+    },
+    "resistance_score": 11,
+    "spread": 4.27,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0246",
+    "name": "Atovaquone analog 214",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3c(C(F)(F)F)cccc23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.21,
+      "single": -7.9,
+      "double": -7.22,
+      "triple": -7.45,
+      "quad": -7.55
+    },
+    "resistance_score": 59,
+    "spread": 0.68,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0247",
+    "name": "Atovaquone analog 215",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(F)ccc23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.2,
+      "single": -8.56,
+      "double": -6.16,
+      "triple": -5.72,
+      "quad": -5.65
+    },
+    "resistance_score": 30,
+    "spread": 2.91,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0248",
+    "name": "Atovaquone analog 216",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(Cl)ccc23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.36,
+      "single": -8.4,
+      "double": -6.4,
+      "triple": -6.69,
+      "quad": -4.52
+    },
+    "resistance_score": 9,
+    "spread": 4.83,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0249",
+    "name": "Atovaquone analog 217",
+    "smiles": "Cc1ccc2c(C(=O)C3CCC(C)CC3)ccc(O)c2c1",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.84,
+      "single": -7.67,
+      "double": -6.89,
+      "triple": -7.09,
+      "quad": -6.8
+    },
+    "resistance_score": 52,
+    "spread": 1.04,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0250",
+    "name": "Atovaquone analog 218",
+    "smiles": "COc1ccc2c(C(=O)C3CCC(C)CC3)ccc(O)c2c1",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.6,
+      "single": -7.51,
+      "double": -8.33,
+      "triple": -6.58,
+      "quad": -7.44
+    },
+    "resistance_score": 47,
+    "spread": 1.75,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0251",
+    "name": "Atovaquone analog 219",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(C(N)=O)ccc23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.24,
+      "single": -6.36,
+      "double": -7.25,
+      "triple": -7.85,
+      "quad": -5.07
+    },
+    "resistance_score": 18,
+    "spread": 4.17,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0252",
+    "name": "Atovaquone analog 220",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(C#N)ccc23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.4,
+      "single": -6.5,
+      "double": -6.05,
+      "triple": -6.21,
+      "quad": -4.55
+    },
+    "resistance_score": 12,
+    "spread": 3.85,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0253",
+    "name": "Atovaquone analog 221",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(N)ccc23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.87,
+      "single": -8.29,
+      "double": -7.01,
+      "triple": -6.12,
+      "quad": -5.02
+    },
+    "resistance_score": 19,
+    "spread": 3.85,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0254",
+    "name": "Atovaquone analog 222",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(O)ccc23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.9,
+      "single": -7.68,
+      "double": -6.48,
+      "triple": -7.81,
+      "quad": -7.3
+    },
+    "resistance_score": 46,
+    "spread": 1.43,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0255",
+    "name": "Atovaquone analog 223",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cc(C(F)(F)F)ccc23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.42,
+      "single": -6.95,
+      "double": -7.62,
+      "triple": -6.71,
+      "quad": -7.52
+    },
+    "resistance_score": 49,
+    "spread": 1.71,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0256",
+    "name": "Atovaquone analog 224",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(F)cc23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.4,
+      "single": -8.85,
+      "double": -8.09,
+      "triple": -7.27,
+      "quad": -6.64
+    },
+    "resistance_score": 46,
+    "spread": 2.21,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0257",
+    "name": "Atovaquone analog 225",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(Cl)cc23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.03,
+      "single": -6.44,
+      "double": -7.57,
+      "triple": -6.84,
+      "quad": -6.44
+    },
+    "resistance_score": 47,
+    "spread": 1.13,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0258",
+    "name": "Atovaquone analog 226",
+    "smiles": "Cc1ccc2c(O)ccc(C(=O)C3CCC(C)CC3)c2c1",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.15,
+      "single": -6.47,
+      "double": -6.17,
+      "triple": -6.28,
+      "quad": -7.43
+    },
+    "resistance_score": 37,
+    "spread": 2.98,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0259",
+    "name": "Atovaquone analog 227",
+    "smiles": "COc1ccc2c(O)ccc(C(=O)C3CCC(C)CC3)c2c1",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.1,
+      "single": -7.69,
+      "double": -7.34,
+      "triple": -6.06,
+      "quad": -6.18
+    },
+    "resistance_score": 36,
+    "spread": 3.04,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0260",
+    "name": "Atovaquone analog 228",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(C(N)=O)cc23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.05,
+      "single": -8.66,
+      "double": -7.3,
+      "triple": -7.09,
+      "quad": -7.59
+    },
+    "resistance_score": 54,
+    "spread": 1.61,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0261",
+    "name": "Atovaquone analog 229",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(C#N)cc23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.87,
+      "single": -8.66,
+      "double": -7.53,
+      "triple": -6.09,
+      "quad": -7.09
+    },
+    "resistance_score": 37,
+    "spread": 2.78,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0262",
+    "name": "Atovaquone analog 230",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(N)cc23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.09,
+      "single": -8.51,
+      "double": -7.04,
+      "triple": -6.26,
+      "quad": -6.8
+    },
+    "resistance_score": 41,
+    "spread": 2.25,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0263",
+    "name": "Atovaquone analog 231",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(O)cc23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.86,
+      "single": -7.1,
+      "double": -8.03,
+      "triple": -6.1,
+      "quad": -5.26
+    },
+    "resistance_score": 25,
+    "spread": 2.77,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0264",
+    "name": "Atovaquone analog 232",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3ccc(C(F)(F)F)cc23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.78,
+      "single": -8.64,
+      "double": -7.07,
+      "triple": -5.42,
+      "quad": -6.82
+    },
+    "resistance_score": 26,
+    "spread": 3.22,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0265",
+    "name": "Atovaquone analog 233",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(F)c23)CC1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.21,
+      "single": -6.66,
+      "double": -7.86,
+      "triple": -6.63,
+      "quad": -7.57
+    },
+    "resistance_score": 49,
+    "spread": 1.22,
+    "properties": {
+      "logP": 4.7,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0266",
+    "name": "Atovaquone analog 234",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(Cl)c23)CC1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.21,
+      "single": -7.62,
+      "double": -7.47,
+      "triple": -7.24,
+      "quad": -6.39
+    },
+    "resistance_score": 46,
+    "spread": 1.23,
+    "properties": {
+      "logP": 5.2,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0267",
+    "name": "Atovaquone analog 235",
+    "smiles": "Cc1cccc2c(O)ccc(C(=O)C3CCC(C)CC3)c12",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.56,
+      "single": -7.05,
+      "double": -8.2,
+      "triple": -6.69,
+      "quad": -7.48
+    },
+    "resistance_score": 49,
+    "spread": 1.51,
+    "properties": {
+      "logP": 4.9,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0268",
+    "name": "Atovaquone analog 236",
+    "smiles": "COc1cccc2c(O)ccc(C(=O)C3CCC(C)CC3)c12",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.31,
+      "single": -8.05,
+      "double": -6.77,
+      "triple": -6.76,
+      "quad": -6.64
+    },
+    "resistance_score": 49,
+    "spread": 1.41,
+    "properties": {
+      "logP": 4.6,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 47
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0269",
+    "name": "Atovaquone analog 237",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(C(N)=O)c23)CC1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.2,
+      "single": -7.79,
+      "double": -7.0,
+      "triple": -5.61,
+      "quad": -5.84
+    },
+    "resistance_score": 31,
+    "spread": 2.59,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 3,
+      "tpsa": 80
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0270",
+    "name": "Atovaquone analog 238",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(C#N)c23)CC1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.23,
+      "single": -6.35,
+      "double": -7.08,
+      "triple": -5.74,
+      "quad": -4.53
+    },
+    "resistance_score": 9,
+    "spread": 4.7,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 1,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 61
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0271",
+    "name": "Atovaquone analog 239",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(N)c23)CC1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.44,
+      "single": -6.3,
+      "double": -6.45,
+      "triple": -8.1,
+      "quad": -6.17
+    },
+    "resistance_score": 41,
+    "spread": 1.93,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 63
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0272",
+    "name": "Atovaquone analog 240",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(O)c23)CC1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.4,
+      "single": -7.28,
+      "double": -8.19,
+      "triple": -7.5,
+      "quad": -6.76
+    },
+    "resistance_score": 50,
+    "spread": 1.64,
+    "properties": {
+      "logP": 4.3,
+      "hbd": 2,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 58
+    },
+    "pains_alert": true
+  },
+  {
+    "id": "KF-0273",
+    "name": "Atovaquone analog 241",
+    "smiles": "CC1CCC(C(=O)c2ccc(O)c3cccc(C(F)(F)F)c23)CC1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.95,
+      "single": -8.46,
+      "double": -7.26,
+      "triple": -7.96,
+      "quad": -6.17
+    },
+    "resistance_score": 38,
+    "spread": 2.78,
+    "properties": {
+      "logP": 5.6,
+      "hbd": 1,
+      "hba": 2,
+      "rotatable": 2,
+      "tpsa": 37
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0274",
+    "name": "Quinidine analog 242",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1F",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.21,
+      "single": -8.96,
+      "double": -7.88,
+      "triple": -6.75,
+      "quad": -4.5
+    },
+    "resistance_score": 10,
+    "spread": 4.45,
+    "properties": {
+      "logP": 3.5,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0275",
+    "name": "Quinidine analog 243",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1Cl",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.81,
+      "single": -6.89,
+      "double": -6.12,
+      "triple": -7.18,
+      "quad": -7.47
+    },
+    "resistance_score": 41,
+    "spread": 1.69,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0276",
+    "name": "Quinidine analog 244",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1C",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.14,
+      "single": -7.09,
+      "double": -7.38,
+      "triple": -7.36,
+      "quad": -7.53
+    },
+    "resistance_score": 53,
+    "spread": 2.05,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0277",
+    "name": "Quinidine analog 245",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1OC",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.47,
+      "single": -6.5,
+      "double": -8.03,
+      "triple": -6.03,
+      "quad": -5.48
+    },
+    "resistance_score": 28,
+    "spread": 2.99,
+    "properties": {
+      "logP": 3.4,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 35
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0278",
+    "name": "Quinidine analog 246",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1C(N)=O",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.68,
+      "single": -7.26,
+      "double": -8.45,
+      "triple": -6.74,
+      "quad": -7.85
+    },
+    "resistance_score": 49,
+    "spread": 1.71,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 68
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0279",
+    "name": "Quinidine analog 247",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1C#N",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.3,
+      "single": -8.56,
+      "double": -6.65,
+      "triple": -8.09,
+      "quad": -6.31
+    },
+    "resistance_score": 42,
+    "spread": 2.25,
+    "properties": {
+      "logP": 3.3,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 49
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0280",
+    "name": "Quinidine analog 248",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1N",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.27,
+      "single": -6.42,
+      "double": -6.68,
+      "triple": -6.87,
+      "quad": -4.86
+    },
+    "resistance_score": 15,
+    "spread": 4.41,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 51
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0281",
+    "name": "Quinidine analog 249",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1O",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.58,
+      "single": -7.15,
+      "double": -6.17,
+      "triple": -6.25,
+      "quad": -6.25
+    },
+    "resistance_score": 39,
+    "spread": 2.41,
+    "properties": {
+      "logP": 3.1,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 46
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0282",
+    "name": "Quinidine analog 250",
+    "smiles": "COc1cc2cc(C3CC4CCN3CC4)cnc2cc1C(F)(F)F",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.97,
+      "single": -8.92,
+      "double": -6.34,
+      "triple": -6.53,
+      "quad": -5.14
+    },
+    "resistance_score": 21,
+    "spread": 3.78,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0283",
+    "name": "Quinidine analog 251",
+    "smiles": "COc1cc(F)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.11,
+      "single": -6.46,
+      "double": -5.72,
+      "triple": -5.59,
+      "quad": -6.47
+    },
+    "resistance_score": 34,
+    "spread": 1.52,
+    "properties": {
+      "logP": 3.5,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0284",
+    "name": "Quinidine analog 252",
+    "smiles": "COc1cc(Cl)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.26,
+      "single": -6.82,
+      "double": -6.79,
+      "triple": -6.36,
+      "quad": -7.81
+    },
+    "resistance_score": 40,
+    "spread": 2.9,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0285",
+    "name": "Quinidine analog 253",
+    "smiles": "COc1cc(C)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.36,
+      "single": -6.77,
+      "double": -6.45,
+      "triple": -6.37,
+      "quad": -6.4
+    },
+    "resistance_score": 40,
+    "spread": 2.99,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0286",
+    "name": "Quinidine analog 254",
+    "smiles": "COc1cc(OC)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.32,
+      "single": -7.52,
+      "double": -6.79,
+      "triple": -5.7,
+      "quad": -7.78
+    },
+    "resistance_score": 34,
+    "spread": 2.08,
+    "properties": {
+      "logP": 3.4,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 35
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0287",
+    "name": "Quinidine analog 255",
+    "smiles": "COc1cc(C(N)=O)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.16,
+      "single": -7.73,
+      "double": -8.16,
+      "triple": -7.44,
+      "quad": -5.9
+    },
+    "resistance_score": 36,
+    "spread": 2.26,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 68
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0288",
+    "name": "Quinidine analog 256",
+    "smiles": "COc1cc(C#N)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.32,
+      "single": -7.42,
+      "double": -6.0,
+      "triple": -5.61,
+      "quad": -5.81
+    },
+    "resistance_score": 27,
+    "spread": 3.71,
+    "properties": {
+      "logP": 3.3,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 49
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0289",
+    "name": "Quinidine analog 257",
+    "smiles": "COc1cc(N)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.95,
+      "single": -6.71,
+      "double": -6.67,
+      "triple": -6.28,
+      "quad": -7.12
+    },
+    "resistance_score": 40,
+    "spread": 2.67,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 51
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0290",
+    "name": "Quinidine analog 258",
+    "smiles": "COc1cc(O)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.64,
+      "single": -8.66,
+      "double": -8.2,
+      "triple": -5.87,
+      "quad": -6.99
+    },
+    "resistance_score": 34,
+    "spread": 2.79,
+    "properties": {
+      "logP": 3.1,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 46
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0291",
+    "name": "Quinidine analog 259",
+    "smiles": "COc1cc(C(F)(F)F)c2ncc(C3CC4CCN3CC4)cc2c1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.01,
+      "single": -8.27,
+      "double": -6.18,
+      "triple": -6.88,
+      "quad": -7.8
+    },
+    "resistance_score": 40,
+    "spread": 2.09,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0292",
+    "name": "Quinidine analog 260",
+    "smiles": "COc1ccc2nc(F)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 286,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -9.34,
+      "single": -6.41,
+      "double": -7.5,
+      "triple": -6.6,
+      "quad": -5.3
+    },
+    "resistance_score": 22,
+    "spread": 4.04,
+    "properties": {
+      "logP": 3.5,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0293",
+    "name": "Quinidine analog 261",
+    "smiles": "COc1ccc2nc(Cl)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 303,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.81,
+      "single": -6.37,
+      "double": -7.27,
+      "triple": -6.89,
+      "quad": -5.96
+    },
+    "resistance_score": 35,
+    "spread": 2.84,
+    "properties": {
+      "logP": 4.1,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0294",
+    "name": "Quinidine analog 262",
+    "smiles": "COc1ccc2nc(C)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 282,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -8.13,
+      "single": -7.18,
+      "double": -6.38,
+      "triple": -7.49,
+      "quad": -5.41
+    },
+    "resistance_score": 28,
+    "spread": 2.72,
+    "properties": {
+      "logP": 3.7,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0295",
+    "name": "Quinidine analog 263",
+    "smiles": "COc1ccc2nc(OC)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 298,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.15,
+      "single": -7.27,
+      "double": -6.21,
+      "triple": -6.05,
+      "quad": -6.53
+    },
+    "resistance_score": 41,
+    "spread": 1.21,
+    "properties": {
+      "logP": 3.4,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 35
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0296",
+    "name": "Quinidine analog 264",
+    "smiles": "COc1ccc2nc(C(N)=O)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 311,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.03,
+      "single": -7.13,
+      "double": -6.34,
+      "triple": -5.41,
+      "quad": -7.73
+    },
+    "resistance_score": 29,
+    "spread": 2.32,
+    "properties": {
+      "logP": 2.5,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 3,
+      "tpsa": 68
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0297",
+    "name": "Quinidine analog 265",
+    "smiles": "COc1ccc2nc(C#N)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 293,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.21,
+      "single": -7.74,
+      "double": -7.34,
+      "triple": -8.07,
+      "quad": -6.84
+    },
+    "resistance_score": 52,
+    "spread": 1.23,
+    "properties": {
+      "logP": 3.3,
+      "hbd": 0,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 49
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0298",
+    "name": "Quinidine analog 266",
+    "smiles": "COc1ccc2nc(N)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 283,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.82,
+      "single": -8.01,
+      "double": -6.77,
+      "triple": -6.02,
+      "quad": -4.8
+    },
+    "resistance_score": 18,
+    "spread": 3.21,
+    "properties": {
+      "logP": 3.0,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 51
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0299",
+    "name": "Quinidine analog 267",
+    "smiles": "COc1ccc2nc(O)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 284,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.83,
+      "single": -8.07,
+      "double": -6.12,
+      "triple": -8.03,
+      "quad": -7.76
+    },
+    "resistance_score": 40,
+    "spread": 1.95,
+    "properties": {
+      "logP": 3.1,
+      "hbd": 1,
+      "hba": 4,
+      "rotatable": 2,
+      "tpsa": 46
+    },
+    "pains_alert": false
+  },
+  {
+    "id": "KF-0300",
+    "name": "Quinidine analog 268",
+    "smiles": "COc1ccc2nc(C(F)(F)F)c(C3CC4CCN3CC4)cc2c1",
+    "mw": 336,
+    "source": "MutaScreen demo set",
+    "reference": false,
+    "scores": {
+      "wild": -7.46,
+      "single": -8.01,
+      "double": -6.41,
+      "triple": -7.82,
+      "quad": -6.06
+    },
+    "resistance_score": 39,
+    "spread": 1.95,
+    "properties": {
+      "logP": 4.4,
+      "hbd": 0,
+      "hba": 3,
+      "rotatable": 2,
+      "tpsa": 25
+    },
+    "pains_alert": false
+  }
+]
