@@ -1,4 +1,15 @@
-from backend.main import MOLECULES, VARIANTS, filter_molecules, FilterRequest, shortlist, ShortlistRequest
+from backend.main import (
+    MOLECULES,
+    VARIANTS,
+    filter_molecules,
+    FilterRequest,
+    shortlist,
+    ShortlistRequest,
+    run_pipeline,
+    PipelineRequest,
+    screen,
+    ScreenRequest,
+)
 
 
 def test_demo_library_has_controls_and_all_five_variant_scores():
@@ -25,3 +36,28 @@ def test_filter_and_shortlist_return_consistent_results():
     results = shortlist(ShortlistRequest(count=5, minimum_score=0))["molecules"]
     assert len(results) == 5
     assert results == sorted(results, key=lambda m: (-m["resistance_score"], m["spread"]))
+
+
+def test_screen_requires_all_variant_thresholds():
+    threshold = -7
+    result = screen(ScreenRequest(threshold=threshold, limit=300))
+    expected = [
+        m for m in MOLECULES
+        if all(m["scores"][variant["id"]] <= threshold for variant in VARIANTS)
+    ]
+    assert result["passed"] == len(expected)
+    assert all(
+        all(m["scores"][variant["id"]] <= threshold for variant in VARIANTS)
+        for m in result["molecules"]
+    )
+
+
+def test_automated_pipeline_returns_ranked_drug_like_hits():
+    result = run_pipeline(PipelineRequest(threshold=-7, count=10))
+    molecules = result["molecules"]
+    assert len(molecules) <= 10
+    assert molecules == sorted(
+        molecules,
+        key=lambda m: (-m["resistance_score"], m["spread"], m["scores"]["quad"]),
+    )
+    assert all(m["drug_like"] for m in molecules)

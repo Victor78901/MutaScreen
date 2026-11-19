@@ -219,6 +219,15 @@ class ScreenRequest(BaseModel):
     limit: int = Field(default=50, ge=1, le=300)
 
 
+class PipelineRequest(BaseModel):
+    threshold: float = Field(default=-7, ge=-15, le=0)
+    count: int = Field(default=10, ge=1, le=50)
+    max_mw: float = Field(default=500, ge=100, le=1000)
+    max_logp: float = Field(default=5, ge=0, le=10)
+    max_hbd: int = Field(default=5, ge=0, le=20)
+    max_hba: int = Field(default=10, ge=0, le=30)
+
+
 @app.get("/api/health")
 def health() -> dict[str, str]:
     return {"status": "ok", "mode": "demo", "docking": "simulation"}
@@ -286,12 +295,58 @@ def shortlist(settings: ShortlistRequest) -> dict[str, Any]:
 
 @app.post("/api/screen")
 def screen(settings: ScreenRequest) -> dict[str, Any]:
-    rows = sorted(MOLECULES, key=lambda m: m["scores"]["wild"])
+    rows = [
+        m for m in MOLECULES
+        if all(m["scores"][variant["id"]] <= settings.threshold for variant in VARIANTS)
+    ]
+    rows.sort(key=lambda m: (-m["resistance_score"], m["spread"], m["scores"]["quad"]))
     return {
         "molecules": rows[:settings.limit],
         "threshold": settings.threshold,
-        "passed": sum(m["scores"]["wild"] <= settings.threshold for m in MOLECULES),
+        "passed": len(rows),
         "total": len(MOLECULES),
+        "mode": "demo",
+    }
+
+
+@app.post("/api/pipeline")
+def run_pipeline(settings: PipelineRequest) -> dict[str, Any]:
+    candidates = []
+    screening_passed = 0
+
+    for molecule in MOLECULES:
+        if not all(
+            molecule["scores"][variant["id"]] <= settings.threshold
+            for variant in VARIANTS
+        ):
+            continue
+        screening_passed += 1
+        properties = molecule["properties"]
+        checks = {
+            "molecular_weight": molecule["mw"] <= settings.max_mw,
+            "logP": properties["logP"] <= settings.max_logp,
+            "donors": properties["hbd"] <= settings.max_hbd,
+            "acceptors": properties["hba"] <= settings.max_hba,
+            "pains": not molecule.get("pains_alert", False),
+        }
+        if all(checks.values()):
+            candidates.append({
+                **molecule,
+                "checks": checks,
+                "drug_like": True,
+            })
+
+    candidates.sort(
+        key=lambda m: (-m["resistance_score"], m["spread"], m["scores"]["quad"])
+    )
+    selected = candidates[:settings.count]
+    return {
+        "molecules": selected,
+        "passed": len(selected),
+        "screening_passed": screening_passed,
+        "drug_likeness_passed": len(candidates),
+        "total": len(MOLECULES),
+        "threshold": settings.threshold,
         "mode": "demo",
     }
 
@@ -364,12 +419,22 @@ async def upload_library(file: UploadFile = File(...)) -> dict[str, Any]:
 
 
 @app.get("/api/export.csv")
-def export_csv() -> StreamingResponse:
+def export_csv(ids: str = "") -> StreamingResponse:
     buffer = io.StringIO()
     writer = csv.DictWriter(buffer, fieldnames=["id", "name", "smiles", "resistance_score",
                                                "spread", *[v["id"] for v in VARIANTS]])
     writer.writeheader()
-    for m in sorted(MOLECULES, key=lambda item: -item["resistance_score"])[:20]:
+    requested_ids = [item.strip() for item in ids.split(",") if item.strip()]
+    requested_set = set(requested_ids)
+    rows = (
+        [m for m in MOLECULES if m["id"] in requested_set]
+        if requested_ids
+        else sorted(MOLECULES, key=lambda item: -item["resistance_score"])[:20]
+    )
+    if requested_ids:
+        order = {molecule_id: index for index, molecule_id in enumerate(requested_ids)}
+        rows = sorted(rows, key=lambda item: order.get(item["id"], len(order)))
+    for m in rows:
         writer.writerow({"id": m["id"], "name": m["name"], "smiles": m["smiles"],
                          "resistance_score": m["resistance_score"], "spread": m["spread"],
                          **m["scores"]})

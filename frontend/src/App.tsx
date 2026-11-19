@@ -70,6 +70,7 @@ function App() {
   const [variantIndex, setVariantIndex] = useState(0);
   const [running, setRunning] = useState(false);
   const [hasScreened, setHasScreened] = useState(false);
+  const [automatedIds, setAutomatedIds] = useState<string[]>([]);
   const [liveMode, setLiveMode] = useState(false);
   const [progress, setProgress] = useState(0);
   const [threshold, setThreshold] = useState(-7);
@@ -122,15 +123,55 @@ function App() {
     setStep(2);
     setRunning(true);
     setProgress(0);
-    for (let i = 1; i <= 10; i += 1) {
-      await new Promise(resolve => window.setTimeout(resolve, 360));
-      setProgress(i * 10);
+
+    const progressTimer = window.setInterval(() => {
+      setProgress(current => Math.min(current + 10, 90));
+    }, 180);
+
+    try {
+      const response = await fetch("/api/pipeline", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          threshold,
+          count: 20,
+          max_mw: mwLimit,
+          max_logp: 5,
+          max_hbd: 5,
+          max_hba: 10,
+        }),
+      });
+      const result = await response.json() as {
+        molecules: Molecule[];
+        passed: number;
+        screening_passed: number;
+        drug_likeness_passed: number;
+        detail?: string;
+      };
+      if (!response.ok) throw new Error(result.detail || "Automated screening could not be completed.");
+
+      setMolecules(current => current.map(molecule => {
+        const ranked = result.molecules.find(item => item.id === molecule.id);
+        return ranked ? { ...molecule, ...ranked } : molecule;
+      }));
+      const automatedShortlist = result.molecules.map(molecule => molecule.id);
+      setAutomatedIds(automatedShortlist);
+      setShortlist(automatedShortlist);
+      setProgress(100);
+      setHasScreened(true);
+      setRunning(false);
+      setStep(stages.length);
+      setNotice(
+        `Screen complete — ${result.passed} shortlisted from ${result.screening_passed} all-variant binders.`,
+      );
+      window.setTimeout(() => setNotice(""), 4500);
+    } catch (error) {
+      setRunning(false);
+      setProgress(0);
+      setNotice(error instanceof Error ? error.message : "Automated screening could not be completed.");
+    } finally {
+      window.clearInterval(progressTimer);
     }
-    setHasScreened(true);
-    setRunning(false);
-    setStep(stages.length);
-    setNotice("Screen complete — choose which passing candidates to add to your shortlist.");
-    window.setTimeout(() => setNotice(""), 4500);
   };
 
   const toggleShortlist = (id: string) => setShortlist(current =>
@@ -264,10 +305,12 @@ function App() {
       </section>;
     }
     const selectedCandidates = hasScreened
-      ? bindingCandidates
+      ? (automatedIds.length
+        ? automatedIds.map(id => molecules.find(m => m.id === id)).filter((m): m is Molecule => Boolean(m))
+        : bindingCandidates)
       : shortlist.length ? molecules.filter(m => shortlist.includes(m.id)) : best.slice(0, 5);
     return <section className="shortlist-view">
-      <div className="shortlist-heading"><div><div className="eyebrow"><span className="pulse-dot" /> 06 / {hasScreened ? "SCREENING RESULTS" : "FINAL SHORTLIST"}</div><h2>{hasScreened ? `${bindingCandidates.length} candidates passed` : "Promising keys, not promises."}</h2><p className="muted">{hasScreened ? `Showing candidates that meet the ${threshold.toFixed(1)} kcal/mol threshold across all five target shapes. Select the molecules you want to add to your shortlist.` : "A first-pass shortlist of molecules predicted to keep binding as the target changes."}</p></div><a className="button button-soft" href="/api/export.csv" download><Download size={16} /> Export CSV</a></div>
+      <div className="shortlist-heading"><div><div className="eyebrow"><span className="pulse-dot" /> 06 / {hasScreened ? "SCREENING RESULTS" : "FINAL SHORTLIST"}</div><h2>{hasScreened ? `${selectedCandidates.length} candidates passed` : "Promising keys, not promises."}</h2><p className="muted">{hasScreened ? `Showing candidates that meet the ${threshold.toFixed(1)} kcal/mol threshold across all five target shapes and the configured drug-likeness checks. Select the molecules you want to add to your shortlist.` : "A first-pass shortlist of molecules predicted to keep binding as the target changes."}</p></div><a className="button button-soft" href={hasScreened && automatedIds.length ? `/api/export.csv?ids=${encodeURIComponent(automatedIds.join(","))}` : "/api/export.csv"} download><Download size={16} /> Export CSV</a></div>
       {hasScreened && <div className="selection-summary"><CheckCircle2 size={16} /> {shortlist.length} selected for your shortlist</div>}
       {selectedCandidates.length > 0 ? <div className="candidate-grid">{selectedCandidates.map((m, i) => <motion.article layout key={m.id} className={`candidate-card ${shortlist.includes(m.id) ? "is-selected" : ""}`} onClick={() => setSelected(m)} whileHover={{ y: -4 }}>
         <div className="candidate-card-top"><span className="candidate-index">0{i + 1}</span><span className="candidate-score"><ShieldCheck size={14} /> {m.resistance_score} <small>resilience</small></span></div>

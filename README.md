@@ -46,7 +46,7 @@ npm run build
 
 - A 300-row reproducible demo molecule library with SMILES strings, five precomputed variant scores, and pinned pyrimethamine, cycloguanil, WR99210, and P218 controls.
 - A FastAPI service with health, target-variant, library, descriptors, filtering, shortlist, CSV/SDF upload, and CSV export endpoints.
-- A responsive React dashboard with a six-stage pipeline, animated lock/key hero, molecule search, simulated screening with selectable candidates that meet a configurable threshold across all five target shapes, resistance heatmap, adjustable drug-likeness filter, shortlist cards, CSV export, a reusable molecule detail drawer, onboarding tour, and theme switch.
+- A responsive React dashboard with a six-stage pipeline, animated lock/key hero, molecule search, automated screening that filters across all five target shapes and drug-likeness checks before ranking a shortlist, resistance heatmap, adjustable drug-likeness filter, shortlist cards, CSV export, a reusable molecule detail drawer, onboarding tour, and theme switch.
 - Simple scoring/filtering tests and a visible research-limit statement.
 
 ## Demo-data and science limitations
